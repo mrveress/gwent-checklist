@@ -1,0 +1,27 @@
+{
+  "name": "gwent-checklist",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/write-dev-index.mjs && vite",
+    "build": "node scripts/write-dev-index.mjs && tsc -b && vite build && node scripts/write-root-index.mjs",
+    "preview": "vite preview",
+    "serve": "npm run build && npx --yes serve -l 4173 ."
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.12"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

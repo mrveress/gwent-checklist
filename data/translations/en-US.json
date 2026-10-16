@@ -1,0 +1,1495 @@
+{
+  "locale": "en-US",
+  "ui": {
+    "appTitle": "Gwent Checklist",
+    "appSubtitle": "Track every Witcher 3 Gwent card you collect.",
+    "searchPlaceholder": "Search by name, location, quest…",
+    "language": "Language",
+    "progress": "Progress",
+    "gathered": "Gathered",
+    "missing": "Missing",
+    "all": "All",
+    "filters": "Filters",
+    "clearFilters": "Clear filters",
+    "faction": "Faction",
+    "type": "Type",
+    "expansion": "Expansion",
+    "row": "Row",
+    "ability": "Ability",
+    "tags": "Tags",
+    "status": "Status",
+    "exportJson": "Export JSON",
+    "importJson": "Import JSON",
+    "markGathered": "Mark as gathered",
+    "markMissing": "Mark as missing",
+    "howToGet": "How to get",
+    "effect": "Leader ability",
+    "strength": "Strength",
+    "noResults": "No cards match your search and filters.",
+    "showing": "Showing",
+    "of": "of",
+    "cards": "cards",
+    "importSuccess": "Checklist loaded from JSON.",
+    "importError": "Could not read that JSON file.",
+    "exportSuccess": "Checklist exported.",
+    "any": "Any",
+    "loading": "Loading card data…",
+    "loadError": "Could not load card data. Check that ./data files are available.",
+    "showFilters": "Show filters",
+    "hideFilters": "Hide filters",
+    "activeFilters": "active",
+    "details": "Details",
+    "close": "Close",
+    "description": "Description",
+    "reset": "Reset",
+    "resetConfirm": "Reset gathered cards to the game-start base deck? Your other marks will be cleared.",
+    "resetSuccess": "Checklist reset to base-deck cards."
+  },
+  "attributeLabels": {
+    "faction": "Faction",
+    "type": "Type",
+    "expansion": "Expansion",
+    "row": "Row",
+    "ability": "Ability",
+    "strength": "Strength",
+    "tags": "Tags",
+    "imageId": "Image",
+    "howToGet": "How to get",
+    "effect": "Leader ability"
+  },
+  "attributes": {
+    "faction": {
+      "neutral": {
+        "name": "Neutral",
+        "description": "Neutral cards that can be used with any faction deck."
+      },
+      "northern": {
+        "name": "Northern Realms",
+        "description": "Faction ability: draw an extra card when you win a round."
+      },
+      "nilfgaard": {
+        "name": "Nilfgaardian Empire",
+        "description": "Faction ability: wins any round that ends in a draw."
+      },
+      "scoiatael": {
+        "name": "Scoia'tael",
+        "description": "Faction ability: decides who takes the first turn."
+      },
+      "monsters": {
+        "name": "Monsters",
+        "description": "Faction ability: keeps a random unit card on the battlefield after each round."
+      },
+      "skellige": {
+        "name": "Skellige",
+        "description": "Faction ability: at the start of round 3, play 2 random cards from the graveyard."
+      }
+    },
+    "type": {
+      "leader": {
+        "name": "Leader",
+        "description": "Faction leader card with a unique once-per-match ability."
+      },
+      "hero": {
+        "name": "Hero",
+        "description": "Hero unit: immune to special cards and most abilities."
+      },
+      "unit": {
+        "name": "Unit",
+        "description": "Regular unit card placed on a combat row."
+      },
+      "special": {
+        "name": "Special",
+        "description": "Non-unit special card (e.g. Decoy, Commander's Horn, Scorch, Mardroeme)."
+      },
+      "weather": {
+        "name": "Weather",
+        "description": "Weather effect card that weakens a combat row (or clears weather)."
+      }
+    },
+    "expansion": {
+      "base": {
+        "name": "Base game",
+        "description": "Available in The Witcher 3: Wild Hunt base game."
+      },
+      "hearts-of-stone": {
+        "name": "Hearts of Stone",
+        "description": "Added in the Hearts of Stone expansion."
+      },
+      "blood-and-wine": {
+        "name": "Blood and Wine",
+        "description": "Added in the Blood and Wine expansion."
+      }
+    },
+    "row": {
+      "close": {
+        "name": "Close Combat",
+        "description": "Placed on the Close Combat (melee) row."
+      },
+      "ranged": {
+        "name": "Ranged Combat",
+        "description": "Placed on the Ranged Combat row."
+      },
+      "siege": {
+        "name": "Siege",
+        "description": "Placed on the Siege row."
+      },
+      "agile": {
+        "name": "Agile",
+        "description": "May be placed on either Close Combat or Ranged Combat."
+      }
+    },
+    "ability": {
+      "hero": {
+        "name": "Hero",
+        "description": "Not affected by any Special Cards or abilities."
+      },
+      "spy": {
+        "name": "Spy",
+        "description": "Place on your opponent's battlefield (counts toward their total) and draw 2 cards from your deck."
+      },
+      "medic": {
+        "name": "Medic",
+        "description": "Choose one non-Hero, non-Special card from your discard pile and play it instantly."
+      },
+      "muster": {
+        "name": "Muster",
+        "description": "Find any cards with the same name in your deck and play them instantly."
+      },
+      "tight_bond": {
+        "name": "Tight Bond",
+        "description": "Place next to a card with the same name to double the strength of both cards."
+      },
+      "morale_boost": {
+        "name": "Morale Boost",
+        "description": "Adds +1 strength to all other units in the same row."
+      },
+      "agile": {
+        "name": "Agile",
+        "description": "Can be placed in either the Close Combat or the Ranged Combat row. Cannot be moved once placed."
+      },
+      "scorch": {
+        "name": "Scorch",
+        "description": "Destroys the strongest unit(s) on the battlefield (or a specific row, depending on the card)."
+      },
+      "berserker": {
+        "name": "Berserker",
+        "description": "Transforms into a stronger form when a Mardroeme card is on its row."
+      },
+      "mardroeme": {
+        "name": "Mardroeme",
+        "description": "Triggers transformation of all Berserker cards on the same row."
+      },
+      "commanders_horn": {
+        "name": "Commander's Horn",
+        "description": "Doubles the strength of all unit cards in the selected row. Limit one per row."
+      },
+      "decoy": {
+        "name": "Decoy",
+        "description": "Swap with a non-Hero unit on your side of the battlefield to return that unit to your hand."
+      },
+      "summon_avenger": {
+        "name": "Summon Avenger",
+        "description": "When this card is removed from the battlefield, it is replaced by a stronger unit from your deck."
+      },
+      "weather_frost": {
+        "name": "Biting Frost",
+        "description": "Sets the strength of all Close Combat units to 1 for both players."
+      },
+      "weather_fog": {
+        "name": "Impenetrable Fog",
+        "description": "Sets the strength of all Ranged Combat units to 1 for both players."
+      },
+      "weather_rain": {
+        "name": "Torrential Rain",
+        "description": "Sets the strength of all Siege units to 1 for both players."
+      },
+      "weather_storm": {
+        "name": "Skellige Storm",
+        "description": "Sets the strength of all Ranged and Siege units to 1 for both players."
+      },
+      "clear_weather": {
+        "name": "Clear Weather",
+        "description": "Removes all Weather effects from the battlefield."
+      }
+    }
+  },
+  "cards": {
+    "39967ced-c211-4892-9319-0d99987dbba0": {
+      "name": "Foltest: King of Temeria",
+      "description": "It is natural and beautiful that a man should love his sister.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)",
+      "effect": "Double the strength of all your Siege units (unless a Commander's Horn is also present on that row)."
+    },
+    "5f41816a-73e1-4fba-8eeb-2cd801632eb0": {
+      "name": "Foltest: Lord Commander of the North",
+      "description": "Sod advisors and their schemes. I place my trust in my solders' blades.",
+      "howToGet": "Purchased from Trader(50 Crowns) — Elsa, Innkeeperess of White Orchard Tavern, or Bram the Rescued Merchant of White Orchard — (White Orchard)",
+      "effect": "Clear all weather effects on the battlefield."
+    },
+    "9ed87d8e-1aa3-4af9-a811-c2f331d50b3d": {
+      "name": "Foltest: Son of Medell",
+      "description": "Dammit, I rule this land and I refuse to creep around its corners.",
+      "howToGet": "Purchased from Trader (70 Crowns) — The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)",
+      "effect": "Destroy your enemy's strongest Ranged Combat unit(s) if the combined strength of all their Ranged Combat units is 10 or more."
+    },
+    "8abc5e02-cdaf-46fb-99e7-f538b8e09561": {
+      "name": "Foltest: The Siegemaster",
+      "description": "A well-aimed ballista razes not just the enemy's walls, but his morale as well.",
+      "howToGet": "Won from a Gwent Player — Reward for beating the Nilfgaardian Nobleman — (Royal Palace of Vizima)",
+      "effect": "Pick an Impenetrable Fog card from your deck and play it instantly."
+    },
+    "d2928dae-2221-4a7d-a16d-e00278e9ebf3": {
+      "name": "Foltest: The Steel-Forged",
+      "description": "A beautiful day for battle.",
+      "howToGet": "Secondary Quest — Bernard Tulle the Gwent player, during quest — (Novigrad)",
+      "effect": "Destroy your enemy's strongest Siege unit(s) if the combined strength of all their Siege units is 10 or more."
+    },
+    "6225ca77-484f-4c47-b92c-152fe97e954b": {
+      "name": "Esterad Thyssen",
+      "description": "Like all Thyssen men, he was tall, powerfully built and criminally handsome.",
+      "howToGet": "Gwent Quest — Sigismund Dijkstra, at the Bathhouse — (Novigrad) — [Quest: Gwent Quest: Big City Players]"
+    },
+    "23a8599f-7fc6-4a03-ae84-5822ad3fd3b0": {
+      "name": "John Natalis",
+      "description": "That square should bear the names of my soldiers, of the dead. Not mine.",
+      "howToGet": "Secondary Quest — From Ravvy (Golden Sturgeon Tavern) during quest, or Zoltan Chivay at end of quest — (Novigrad) — [Quest: A Dangerous Game]"
+    },
+    "c8d4498f-d524-421d-b4f5-6a2aaa6ac8a7": {
+      "name": "Philippa Eilhart",
+      "description": "Soon the power of kings will wither, and the Lodge shall seize its rightful place.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "ccab4d6b-e368-406a-b2ad-529dd27dc2e2": {
+      "name": "Vernon Roche",
+      "description": "A patriot... and a real son of a bitch.",
+      "howToGet": "Gwent Quest — Haddy the Card Prodigy of Midcopse — (Velen) — [Quest: Gwent Quest: Velen Players]"
+    },
+    "fcd97364-7215-4dc9-97be-6b183bbc0728": {
+      "name": "Ballista",
+      "description": "'Usually we give 'em female names.' 'Like Jenny?' 'More like Bertha.'",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "4a8e79ef-1c0c-4a7d-b390-029f919d8342": {
+      "name": "Blue Stripes Commando",
+      "description": "I'd do anything for Temeria. Mostly, though, I kill for her.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Elsa, Innkeeperess of White Orchard Tavern, or Bram the Rescued Merchant of White Orchard — (White Orchard)"
+    },
+    "5e66dbf4-f8b6-4e00-b169-af9405f7594b": {
+      "name": "Blue Stripes Commando",
+      "description": "I'd do anything for Temeria. Mostly, though, I kill for her.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "ff1846ec-f008-428d-8444-ea350464cd8d": {
+      "name": "Blue Stripes Commando",
+      "description": "I'd do anything for Temeria. Mostly, though, I kill for her.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "46436ea2-5e02-46a9-80a7-cd4780c57ab8": {
+      "name": "Catapult",
+      "description": "The gods help those who have better catapults.",
+      "howToGet": "Purchased from Trader (50 Crowns) — Marquise Serenity at Passiflora OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "93b60f16-b1ab-4284-bfeb-e4411ff27e0d": {
+      "name": "Catapult",
+      "description": "The gods help those who have better catapults.",
+      "howToGet": "Purchased from Trader (50 Crowns) — Elsa, Innkeeperess of White Orchard Tavern, or Bram the Rescued Merchant of White Orchard — (White Orchard)"
+    },
+    "20447af8-14db-40f6-8fa2-cf2259fe40f9": {
+      "name": "Crinfrid Reavers Dragon Hunter",
+      "description": "Haven't had much luck with monsters of late, so we enlisted.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Merchant of Claywich (after rescuing him) — (Velen)"
+    },
+    "69a5de54-668d-42ba-af07-b604337df19b": {
+      "name": "Crinfrid Reavers Dragon Hunter",
+      "description": "Haven't had much luck with monsters of late, so we enlisted.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Merchant of Midcopse — (Velen)"
+    },
+    "6454acdb-1dc6-487a-9b91-a2f1ab1880ec": {
+      "name": "Crinfrid Reavers Dragon Hunter",
+      "description": "Haven't had much luck with monsters of late, so we enlisted.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Elsa, Innkeeperess of White Orchard Tavern, or Bram the Rescued Merchant of White Orchard — (White Orchard)"
+    },
+    "75e98cd5-e266-4de4-aefe-758f095054d8": {
+      "name": "Dethmold",
+      "description": "I once made a prisoner vomit his own entrails... Ah, good times...",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "7ef91ca8-b999-411e-a46a-f124d30f5c8b": {
+      "name": "Dun Banner Medic",
+      "description": "Stitch red to red, white to white, and everything will be all right.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "bbd5fd3b-228b-488d-914d-1c82cdc36870": {
+      "name": "Kaedweni Siege Expert",
+      "description": "'You gotta recalibrate the arm by five degrees.' 'Do what by the what now?'",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "74d9216a-f423-4abd-aaca-90ffcf851558": {
+      "name": "Kaedweni Siege Expert",
+      "description": "'You gotta recalibrate the arm by five degrees.' 'Do what by the what now?'",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "1d0e0631-96b7-4659-868f-51408918fd44": {
+      "name": "Kaedweni Siege Expert",
+      "description": "'You gotta recalibrate the arm by five degrees.' 'Do what by the what now?'",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "422e7d15-da1e-4c00-9f69-fd45b4d018f5": {
+      "name": "Keira Metz",
+      "description": "If I'm to die today, I wish to look smashing for the occasion.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "64060493-5e39-47a4-af26-bf4a9ed51497": {
+      "name": "Poor F--king Infantry",
+      "description": "I's a war veteran! ... spare me a crown?",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Merchant of Midcopse — (Velen)"
+    },
+    "7606097d-2b3a-48a0-af7d-59bfc2eac1da": {
+      "name": "Poor F--king Infantry",
+      "description": "I's a war veteran! ... spare me a crown?",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Merchant of Lindenvale — (Velen)"
+    },
+    "4e3b7653-6842-4107-acd4-1e925ce77eeb": {
+      "name": "Poor F--king Infantry",
+      "description": "I's a war veteran! ... spare me a crown?",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "6b707f7c-6ef5-46e2-92e0-4c8e10aa20e3": {
+      "name": "Prince Stennis",
+      "description": "He ploughin' wears golden armor. Golden. 'Course he's an arsehole.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "c6ce2684-b86f-4d85-8266-6963c71aab24": {
+      "name": "Redanian Foot Soldier",
+      "description": "I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "1813fcb9-a84a-46e8-bee7-34719c9f614c": {
+      "name": "Redanian Foot Soldier",
+      "description": "I've bled for Redania! I've killed for Redania... Dammit, I've even raped for Redania!",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "97d7c964-8cca-4e2c-9272-7fb27886a4d0": {
+      "name": "Sabrina Glevissig",
+      "description": "The Daughter of the Kaedweni Wilderness.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "6fc35df6-46bd-45f4-8200-5b9bd67cedd1": {
+      "name": "Sheldon Skaggs",
+      "description": "I was there, on the front lines! Right where the fightin' was the thickest!",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "82126ffc-f6bc-47c5-b44d-8abbbc593965": {
+      "name": "Siege Tower",
+      "description": "I love the clamor of siege towers in the morning. Sounds like victory.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "2a4ad03f-9b44-4f80-a548-e46fba4be27a": {
+      "name": "Siegfried of Denesle",
+      "description": "We're on the same side, witcher. You'll realize this one day.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "c9ca43e5-f493-4200-9e77-53920ad80823": {
+      "name": "Sigismund Dijkstra",
+      "description": "Gwent's like politics, just more honest.",
+      "howToGet": "Gwent Quest — The Bloody Baron, Phillip Strenger, Crow’s Perch. Can be picked up in his office after Return to Crookbag Bog. — (Velen) — [Quest: Gwent Quest: Velen Players]"
+    },
+    "34634430-21d1-4805-9bc4-6841eb3688f6": {
+      "name": "Síle de Tansarville",
+      "description": "The Lodge lacks humility. Our lust for power may yet be our undoing.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "5084ed11-795c-490b-9823-eab7f4f65b50": {
+      "name": "Thaler",
+      "description": "Fuck off! We aren't all ploughin' philanderers. Some of us have depth...",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of Arinbjorn — (Skellige)"
+    },
+    "b5cbd608-dc4a-470d-8734-0beb5f7067dd": {
+      "name": "Trebuchet",
+      "description": "Castle won't batter itself down, now will it? Get them trebuchets rollin'!",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "e8c3e957-6c50-457b-9d28-04a68f713a9f": {
+      "name": "Trebuchet",
+      "description": "Castle won't batter itself down, now will it? Get them trebuchets rollin'!",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "0ad02b0e-9923-4fe9-9373-b34d9f0e07aa": {
+      "name": "Ves",
+      "description": "Better to live one day as a king than a whole life as a beggar.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "0110a0d0-4650-4848-b8c7-0499b095ba72": {
+      "name": "Yarpen Zigrin",
+      "description": "The world belongs to whoever's best at crackin' skulls and impregnatin' lasses.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "f0df90c4-287f-4c97-9ae4-52a4a9041d8a": {
+      "name": "Emhyr var Emreis: Emperor of Nilfgaard",
+      "description": "Your motives do not interest me. Only results.",
+      "howToGet": "Purchased from Trader (50 Crowns) — Innkeep at the Inn at the Crossroads — (Velen)",
+      "effect": "Look at a random card from your opponent's hand."
+    },
+    "43de0905-0088-435e-b25e-6a4cf2124c4a": {
+      "name": "Emhyr var Emreis: His Imperial Majesty",
+      "description": "The skies wept when my Pavetta died. They will not weep for me.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)",
+      "effect": "Look at 3 random cards from your opponent's deck."
+    },
+    "64d8fc19-26ca-4c4f-a13c-3279e6495e41": {
+      "name": "Emhyr var Emreis: Invader of the North",
+      "description": "Emperors command multitudes, yet cannot control two things: their time and their hearts.",
+      "howToGet": "Purchased from Trader (70 Crowns) — The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)",
+      "effect": "Choose any spy card in your discard pile and play it again."
+    },
+    "a06b6166-d33f-4538-8e8b-f73b8d2f6652": {
+      "name": "Emhyr var Emreis: The Relentless",
+      "description": "They do not call me the Patient. Take care they do not call you the Headless.",
+      "howToGet": "Secondary Quest — Madame Sasha the Gwent Player, during quest — (Novigrad)",
+      "effect": "Draw a card from your opponent's discard pile."
+    },
+    "db78dace-b5e0-4945-b823-269e06baa667": {
+      "name": "Emhyr var Emreis: The White Flame",
+      "description": "A sword is but one of many tools at a ruler's disposal.",
+      "howToGet": "Gwent Quest — Jarl “Madman” Lugos of Kaer Muire (or Kaer Trolde), at quest completion — (Skellige) — [Quest: Gwent: Skellige Style]",
+      "effect": "Cancel your opponent's Leader Ability."
+    },
+    "b95e413f-025d-4518-b80c-e66f56a914af": {
+      "name": "Letho of Gulet",
+      "description": "Witchers never die in their beds.",
+      "howToGet": "Gwent Quest — Boatbuilder, in Oreton — (Velen) — [Quest: Gwent Quest: Velen Players]"
+    },
+    "79f97cc7-ed54-493e-8d82-5017bbe6f1fc": {
+      "name": "Menno Coehorn",
+      "description": "I'll take an attentive reconnaissance unit over a fine cavalry brigade any day.",
+      "howToGet": "Gwent Quest — Innkeep at the Inn at the Crossroads — (Velen) — [Quest: Gwent Quest: Playing Innkeeps]"
+    },
+    "6934ba6b-47f0-4025-bc1c-28a8f0eb8272": {
+      "name": "Morvran Voorhis",
+      "description": "Summer sun reflecting in the quiet waters of the Alba - that's Nilfgaard to me.",
+      "howToGet": "Gwent Quest — Won from  Marquise Serenity — (Novigrad) — [Quest: Gwent Quest: Big City Players]"
+    },
+    "89fae65f-768f-4d26-8eb4-81d0bc5e477b": {
+      "name": "Tibor Eggebracht",
+      "description": "Albaaaa! Forward!! Alba! Long live the Emperor!",
+      "howToGet": "Gwent Quest — Olivier the Innkeep at The Kingfisher Inn — (Novigrad) — [Quest: Gwent Quest: Playing Innkeeps]"
+    },
+    "d3ce29c4-0090-455f-8c26-8ee98021763e": {
+      "name": "Albrich",
+      "description": "A fireball? Of course. Whatever Your Imperial Majesty wishes.",
+      "howToGet": "Purchased from Trader (10 Crowns) — Trader, Crow's Perch (village) — (Velen)"
+    },
+    "bfbbbc1a-16df-428f-ab4d-2f9eb5c7beff": {
+      "name": "Assire var Anahid",
+      "description": "Nilfgaardian mages do have a choice: servile submission, or the gallows.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "de2f4bbd-6893-44cf-8202-f8ca85d09f14": {
+      "name": "Black Infantry Archer",
+      "description": "I aim for the knee. Always.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Merchant of Claywich (after rescuing him) — (Velen)"
+    },
+    "e32746f3-4a0c-4e96-a3b7-81e4a81a02c8": {
+      "name": "Black Infantry Archer",
+      "description": "I aim for the knee. Always.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Merchant of Lindenvale — (Velen)"
+    },
+    "ddf02869-ffdc-46d4-9916-19d904ff9aff": {
+      "name": "Cahir Mawr Dyffryn aep Ceallach",
+      "description": "His eyes flashed under his winged helmet. Fire gleamed from his sword's blade.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "8a1ee4b3-2285-4967-adc4-36f5b472e0f7": {
+      "name": "Cynthia",
+      "description": "Cynthia's talents can be deadly. She needs a tight leash.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Quartermaster, Baron’s Store, Crow’s Perch — (Velen)"
+    },
+    "0550bf2b-97c9-4ec8-b188-226688588ed5": {
+      "name": "Etolian Auxiliary Archers",
+      "description": "Double or nothing, aim for his cock.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Merchant of Claywich (after rescuing him) — (Velen)"
+    },
+    "75d55723-6fb6-4f6a-901e-6816bc0734ad": {
+      "name": "Etolian Auxiliary Archers",
+      "description": "Double or nothing, aim for his cock.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Merchant of Lindenvale — (Velen)"
+    },
+    "4beb1ddc-a132-4d1d-98c4-446b8aa96e6f": {
+      "name": "Fringilla Vigo",
+      "description": "Magic is the highest good. It transcends all borders and divisions.",
+      "howToGet": "Secondary Quest — Inside Caesar Blizen’s house during quest, or Zoltan Chivay at end of quest — (Novigrad) — [Quest: A Dangerous Game]"
+    },
+    "d5d68eee-fe66-4b70-991b-b04b25b79b25": {
+      "name": "Heavy Zerrikanian Fire Scorpion",
+      "description": "Not the best for taking cities, but great for razing them to the ground.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Merchant of Lindenvale — (Velen)"
+    },
+    "c9a7d71c-1e43-4e93-99c7-2ad215fef92e": {
+      "name": "Impera Brigade Guard",
+      "description": "The Impera Brigade never surrenders. Ever.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep at Seven Cats Inn — (Novigrad)"
+    },
+    "85ae5663-c656-466d-9b0c-673b044dd4a9": {
+      "name": "Impera Brigade Guard",
+      "description": "The Impera Brigade never surrenders. Ever.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeeper at Cunny of the Goose — (Novigrad)"
+    },
+    "84725b04-a7f7-4253-a7f1-94b8d735ac0c": {
+      "name": "Impera Brigade Guard",
+      "description": "The Impera Brigade never surrenders. Ever.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Innkeep at the Inn at the Crossroads — (Velen)"
+    },
+    "aa5604e9-2fa0-4718-8d48-c0f1abe77f3c": {
+      "name": "Impera Brigade Guard",
+      "description": "The Impera Brigade never surrenders. Ever.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Trader, Crow's Perch (village) — (Velen)"
+    },
+    "226b5fe1-f084-44c0-ab10-57db03d789a2": {
+      "name": "Morteisen",
+      "description": "No Nordling pikemen or dwarven spearbearers can hope to best trained cavalry.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Merchant of Midcopse — (Velen)"
+    },
+    "8bad4459-d5b8-4baf-aae7-b691475095ac": {
+      "name": "Nausicaa Cavalry Rider",
+      "description": "The Emperor will teach the North discipline.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Quartermaster, Baron’s Store, Crow’s Perch — (Velen)"
+    },
+    "3e1e2ed7-758c-4585-be14-f217c2212f3b": {
+      "name": "Nausicaa Cavalry Rider",
+      "description": "The Emperor will teach the North discipline.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Innkeep at the Inn at the Crossroads — (Velen)"
+    },
+    "2b3230f4-635f-416c-a2d0-c9b06dfeb0ab": {
+      "name": "Nausicaa Cavalry Rider",
+      "description": "The Emperor will teach the North discipline.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Trader, Crow's Perch (village) — (Velen)"
+    },
+    "d0839741-2ae5-45e2-b464-412ff84dd88f": {
+      "name": "Puttkammer",
+      "description": "Learned a lot at Braibant Military Academy. How to scrub potatoes, for instance.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Merchant of Claywich (after rescuing him) — (Velen)"
+    },
+    "6487197f-a71d-4898-9890-f7bf4c368a40": {
+      "name": "Rainfarn",
+      "description": "You'll die as painfully as that pathetic traitor Windhalm did.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Merchant of Lindenvale — (Velen)"
+    },
+    "6ee19241-94df-4348-a2a6-2647ea550a47": {
+      "name": "Renuald aep Matsen",
+      "description": "They say the Impera fear nothing. Untrue. Renuald scares them shitless.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "82a93618-8227-4d3c-8b07-9fc4e1f9f98c": {
+      "name": "Rotten Mangonel",
+      "description": "The rotten smell brings back childhood memories",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "7262ae28-d836-4de6-9489-2d1d849cda8a": {
+      "name": "Shilard Fitz-Oesterlen",
+      "description": "Warfare is mere sound and fury - diplomacy is what truly shapes history.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "b404fb5a-907d-4801-a769-b0cf2e0b2879": {
+      "name": "Siege Engineer",
+      "description": "Wielded correctly, a protractor can be a deadly weapon.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Innkeep at the Inn at the Crossroads — (Velen)"
+    },
+    "d1853f3d-ad3a-4a64-a8ed-53fba563f05e": {
+      "name": "Siege Technician",
+      "description": "I never miss twice.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of The Golden Sturgeon OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "71fd5b67-7d0f-42a1-b730-96792ce515c8": {
+      "name": "Stefan Skellen",
+      "description": "My mark scars the face of our future empress. That is my proudest achievement.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "68a93d62-b606-4d25-861b-d61ad78d783c": {
+      "name": "Sweers",
+      "description": "And hands off the girl! Whatever we may be, we're not savages.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Merchant of Claywich (after rescuing him) — (Velen)"
+    },
+    "34516e70-0704-4ffc-a705-9cf8e22d955a": {
+      "name": "Vanhemar",
+      "description": "For a fire mage, he's not very... flamboyant.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "461daf74-3010-4da4-8823-f4d89327019f": {
+      "name": "Vattier de Rideaux",
+      "description": "There's never been a problem a well-planned assassination couldn't solve.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "3da4b088-c559-44d6-befe-4bbc85fcf6d8": {
+      "name": "Vreemde",
+      "description": "Discipline is the Empire's deadliest weapon.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "54650a4e-a357-4c2a-90a3-e5f847e80ca5": {
+      "name": "Young Emissary",
+      "description": "If I acquit myself well, perhaps next they'll post me somewhere civilized.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Innkeep at Seven Cats Inn — (Novigrad)"
+    },
+    "d48eafb1-2298-4d5c-8fb4-57612e16a904": {
+      "name": "Young Emissary",
+      "description": "If I acquit myself well, perhaps next they'll post me somewhere civilized.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeeper at Cunny of the Goose — (Novigrad)"
+    },
+    "e3085855-7cd9-4a49-b877-d17bb1d7c107": {
+      "name": "Zerrikanian Fire Scorpion",
+      "description": "The Zerrikania Desert used to be a lush garden. Then these came along.",
+      "howToGet": "Purchased from Trader (50 Crowns) — Trader, Crow's Perch (village) — (Velen)"
+    },
+    "f036d327-e8c3-426f-9558-7ec5c6657a81": {
+      "name": "Francesca Findabair: Daisy of the Valley",
+      "description": "The Elder Races have forgotten more than humans can ever hope to know.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Innkeeper at Cunny of the Goose — (Novigrad)",
+      "effect": "Draw an extra card at the beginning of the battle."
+    },
+    "f201d6f1-1d21-450f-845f-ac8b36ba92c1": {
+      "name": "Francesca Findabair: Hope of the Aen Seidhe",
+      "description": "Daede sian caente, Aen Seidhe en'allane ael coeden...",
+      "howToGet": "Purchased from Trader (70 Crowns) — The Ofieri Merchant of Upper Mill — (Novigrad)",
+      "effect": "Move an Agile unit to the opposite combat row."
+    },
+    "5220ad2f-31a9-482d-9ac6-2a9f995dce29": {
+      "name": "Francesca Findabair: Pureblood Elf",
+      "description": "Ash shall fertilize the soil. By spring, the valley shall bloom once more.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)",
+      "effect": "Double the strength of all your Ranged Combat units (unless a Commander's Horn is also present on that row)."
+    },
+    "6cfa54bf-a02a-4d4e-b081-c8ed42e24e1a": {
+      "name": "Francesca Findabair: Queen of Dol Blathanna",
+      "description": "To live in peace, we first must kill. This is human oppression's cruel finale.",
+      "howToGet": "Secondary Quest — Finneas the Gwent Player, during quest — (Novigrad)",
+      "effect": "Double the strength of all your Close Combat units (unless a Commander's Horn is also present on that row)."
+    },
+    "36098ca4-ce2d-4f1a-b73c-bed97e11d922": {
+      "name": "Francesca Findabair: The Beautiful",
+      "description": "Do not let my beauty distract your aim.",
+      "howToGet": "Gwent Quest — Scoia’Tael Trader of Novigrad Forest (west of Farcorners, in woods), at quest completion — (Novigrad) — [Quest: Gwent Quest: Big City Players]",
+      "effect": "Destroy your enemy's strongest Close Combat unit(s) if the combined strength of all their Close Combat units is 10 or more."
+    },
+    "5ae5bc1b-8a9c-44c1-9fa5-a0402b826ead": {
+      "name": "Eithné",
+      "description": "The dryad queen has eyes of molten silver, and a heart of cold-forged steel.",
+      "howToGet": "Gwent Quest — Zoltan Chivay at the Rosemary and Thyme — (Novigrad) — [Quest: Gwent Quest: Old Pals]"
+    },
+    "bf81c6a0-cfb7-46f0-8fb2-e0354800df9f": {
+      "name": "Iorveth",
+      "description": "King or beggar, what's the difference? One dh'oine less.",
+      "howToGet": "Secondary Quest — Reward from the concerned druid after quest, in Gedyneith — (Skellige) — [Quest: Shock Therapy]"
+    },
+    "637acb5b-b4b6-47c3-9010-2323402581fa": {
+      "name": "Isengrim Faoiltiarna",
+      "description": "It dawns on them once they notice my scar: a realization of imminent death.",
+      "howToGet": "Secondary Quest — Inside Zed’s house during quest, or Zoltan Chivay at end of quest — (Novigrad) — [Quest: A Dangerous Game]"
+    },
+    "d16dfb11-1872-461c-8e78-368d0e85c906": {
+      "name": "Saesenthessis",
+      "description": "Beautiful, pure, fierce - the prefect icon for a rebellion.",
+      "howToGet": "Gwent Quest — Vernon Roche, Temerian Partisan Hideout — (Novigrad) — [Quest: Gwent Quest: Old Pals]"
+    },
+    "df89a80a-4692-4d9a-a14b-a5ba2c81763c": {
+      "name": "Barclay Els",
+      "description": "Our mead smells like piss, do it? Easy to fix - I'll break your fuckin' nose!",
+      "howToGet": "Purchased from Trader (20 Crowns) OR quest reward — The Innkeep of The Golden Sturgeon OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) OR as a quest reward from a garden chest. — (Novigrad)"
+    },
+    "1798374f-f36c-48a4-a71f-5a032993aaf3": {
+      "name": "Ciaran aep Easnillien",
+      "description": "The path to freedom is paved in blood, not ink.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "b1e19a83-9939-4a73-a384-86723b625eae": {
+      "name": "Dennis Cranmer",
+      "description": "I know how to carry out orders, so you can shove your advice up your coal chute.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "bb89e462-156f-426a-9adc-8e3f29fb9ff8": {
+      "name": "Dol Blathanna Archer",
+      "description": "Take another step, dh'oine. You'd look better with an arrow between your eyes.",
+      "howToGet": "Purchased from Trader (10 Crowns) — Marquise Serenity at Passiflora OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "233e2e3b-6dd8-4309-bb57-3df951f6f768": {
+      "name": "Dol Blathanna Scout",
+      "description": "They track like hounds, run like deer and kill like cold-hearted bastards.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Innkeep of The Golden Sturgeon OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "9a5f8748-95e4-41d3-b08a-d950ca6b42d2": {
+      "name": "Dol Blathanna Scout",
+      "description": "They track like hounds, run like deer and kill like cold-hearted bastards.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "ad4662d3-e5ea-478b-a39e-dfb8af8d0214": {
+      "name": "Dol Blathanna Scout",
+      "description": "They track like hounds, run like deer and kill like cold-hearted bastards.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "bce41609-be8d-4bc9-8c99-2e2d84524bbb": {
+      "name": "Dwarven Skirmisher",
+      "description": "Worked a pickaxe all me life. Battleaxe won't be any trouble.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "e56fbe4c-8410-43a4-976b-9c9bf18fa56d": {
+      "name": "Dwarven Skirmisher",
+      "description": "Worked a pickaxe all me life. Battleaxe won't be any trouble.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "379e983b-e99b-4525-82bd-2d19f26cf97f": {
+      "name": "Dwarven Skirmisher",
+      "description": "Worked a pickaxe all me life. Battleaxe won't be any trouble.",
+      "howToGet": "Purchased from Trader (10 Crowns) — Stjepan the Innkeep, at the Alchemy Inn in Oxenfurt — (Oxenfurt)"
+    },
+    "70e82f0f-c70e-4bf0-942f-6fc49f0b77a0": {
+      "name": "Elven Skirmisher",
+      "description": "No matter what you may have heard, elves don't take human scalps. Too much lice.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "59e50e35-3476-4c4b-8243-62e1d929c115": {
+      "name": "Elven Skirmisher",
+      "description": "No matter what you may have heard, elves don't take human scalps. Too much lice.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "f770622d-da7d-4cd9-abf3-4b7a42562569": {
+      "name": "Elven Skirmisher",
+      "description": "No matter what you may have heard, elves don't take human scalps. Too much lice.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Innkeep of Urialla Harbor — (Skellige)"
+    },
+    "da647788-c7b5-418a-8967-c9f254e223cd": {
+      "name": "Filavandrel aen Fidhail",
+      "description": "Though we are now few and scattered, our hearts burn brighter than ever.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "208e0087-0ca1-4b03-81c5-bf74f885cb9a": {
+      "name": "Havekar Healer",
+      "description": "Sure, I'll patch you up. Gonna cost you, though.",
+      "howToGet": "Purchased from Trader (50 Crowns) — Olivier the Innkeep at The Kingfisher Inn OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "beae4adb-03fb-4b7c-97a8-e3dde60a02a4": {
+      "name": "Havekar Healer",
+      "description": "Sure, I'll patch you up. Gonna cost you, though.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeeper at Cunny of the Goose — (Novigrad)"
+    },
+    "b26fd312-e8cb-4ff1-8979-cdac460db298": {
+      "name": "Havekar Healer",
+      "description": "Sure, I'll patch you up. Gonna cost you, though.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "cec75c2d-6500-4a3f-8265-0892380016da": {
+      "name": "Havekar Smuggler",
+      "description": "I fight for whoever's paying the best. Or whoever's easiest to rob.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Olivier the Innkeep at The Kingfisher Inn OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "a547a603-d4c1-4dfa-8651-57c2f273bd5b": {
+      "name": "Havekar Smuggler",
+      "description": "I fight for whoever's paying the best. Or whoever's easiest to rob.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Innkeep at Seven Cats Inn — (Novigrad)"
+    },
+    "e5426e67-9400-4e79-923c-896872783111": {
+      "name": "Havekar Smuggler",
+      "description": "I fight for whoever's paying the best. Or whoever's easiest to rob.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "5e61c2b2-3496-47ce-893d-2d5443342edb": {
+      "name": "Ida Emean aep Sivney",
+      "description": "I am a Sage. My power lies in possessing knowledge. Not sharing it.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "acc7ee7f-0530-409c-a5df-0489848b26bd": {
+      "name": "Mahakaman Defender",
+      "description": "I'm telling ye, we're born fer battle - we slash straight at their knees!",
+      "howToGet": "Purchased from Trader (20 Crowns) — Olivier the Innkeep at The Kingfisher Inn OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "79fcb4f5-ffe6-4e61-b7e5-5462342791f3": {
+      "name": "Mahakaman Defender",
+      "description": "I'm telling ye, we're born fer battle - we slash straight at their knees!",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of The Golden Sturgeon OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "2242469c-f8e0-48b0-8793-5120c8e01dfa": {
+      "name": "Mahakaman Defender",
+      "description": "I'm telling ye, we're born fer battle - we slash straight at their knees!",
+      "howToGet": "Purchased from Trader (20 Crowns) — Marquise Serenity at Passiflora OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "33c7f48c-1c43-41fc-bc78-16bcd9526e36": {
+      "name": "Mahakaman Defender",
+      "description": "I'm telling ye, we're born fer battle - we slash straight at their knees!",
+      "howToGet": "Purchased from Trader (20 Crowns) — Stjepan the Innkeep, at the Alchemy Inn in Oxenfurt — (Oxenfurt)"
+    },
+    "4a6f476d-81b7-4775-83e6-a2f9d644490f": {
+      "name": "Mahakaman Defender",
+      "description": "I'm telling ye, we're born fer battle - we slash straight at their knees!",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep at Seven Cats Inn — (Novigrad)"
+    },
+    "e2b0ae44-a753-4098-ba41-8f9e5813113a": {
+      "name": "Milva",
+      "description": "With each arrow I loose, I think of my da. He'd be proud. I think.",
+      "howToGet": "Secondary Quest — Margrave Vladimir de Cret, the Gwent Players of Vegelbud Estate — (Novigrad) — [Quest: A Matter of Life and Death]"
+    },
+    "8f729f1e-07de-47e0-985c-c51043d1fae4": {
+      "name": "Riordain",
+      "description": "Stare into their eyes, feast on their terror. Then go in for the kill.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "34bc89b0-5f70-4b4e-b291-d173b1052547": {
+      "name": "Schirru",
+      "description": "Time to look death in the face.",
+      "howToGet": "Won from a Gwent Player — Reward for beating the Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "78db0138-e053-41b3-9517-c8ced336b25c": {
+      "name": "Toruviel",
+      "description": "I'd gladly kill you from up close, stare in your eyes... But you reek, human.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "4471ad5f-e56e-4623-bcef-ada2893c513a": {
+      "name": "Vrihedd Brigade Recruit",
+      "description": "Hatred burns brighter than any fire, and cuts deeper than any blade.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "313f379c-0532-4ff9-afca-56e4848daa43": {
+      "name": "Vrihedd Brigade Veteran",
+      "description": "'Vrihedd? What's that mean?' 'Trouble.'",
+      "howToGet": "Purchased from Trader (20 Crowns) — Olivier the Innkeep at The Kingfisher Inn OR The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "ec5547af-5c10-4941-bc3f-a4868006aea6": {
+      "name": "Vrihedd Brigade Veteran",
+      "description": "'Vrihedd? What's that mean?' 'Trouble.'",
+      "howToGet": "Purchased from Trader (20 Crowns) — Stjepan the Innkeep, at the Alchemy Inn in Oxenfurt — (Oxenfurt)"
+    },
+    "2ca0ddf1-ec30-42a6-bb03-6de3191dfc92": {
+      "name": "Yaevinn",
+      "description": "We are the drops of rain that together make a ferocious storm.",
+      "howToGet": "Gwent Quest — Sjusta the Tailor of Kaer Trolde Harbor — (Skellige) — [Quest: Gwent: Skellige Style]"
+    },
+    "8ecd2551-25d8-4a62-a11a-f6789ce6d123": {
+      "name": "Eredin Bréacc Glas: The Treacherous",
+      "description": "I'm enjoying this. You are my toy.",
+      "howToGet": "Purchased from Trader (60 Crowns) — The Ofieri Merchant of Upper Mill — (Novigrad)",
+      "effect": "Doubles the strength of all your spy cards (or increase by 1 if they are already doubled by Commander's Horn)."
+    },
+    "03f6e92e-6af7-42ff-a57b-53c3b1513da4": {
+      "name": "Eredin: Bringer of Death",
+      "description": "Go on. Show me your spins, pirouettes and feints. I want to watch.",
+      "howToGet": "Secondary Quest — Count Tybalt the Gwent Player, during quest — (Novigrad) — [Quest: Gwent Quest: Velen Players]",
+      "effect": "Double the strength of all your Ranged Combat units (unless a Commander's Horn is also present on that row)."
+    },
+    "81e504b7-38d4-41a8-8704-8b246ab78bba": {
+      "name": "Eredin: Commander of the Red Riders",
+      "description": "Have some dignity. You know how this will end.",
+      "howToGet": "Purchased from Trader (50 Crowns) — Jonas the Innkeep of the New Port Inn, Kaer Trolde Harbor — (Skellige)",
+      "effect": "Double the strength of all your Close Combat units (unless a Commander's Horn is also present on that row)."
+    },
+    "54f4fe03-9627-4ef3-9d7a-612ba7a3ebcf": {
+      "name": "Eredin: Destroyer of Worlds",
+      "description": "It is unavoidable.",
+      "howToGet": "Gwent Quest — Haddy the Card Prodigy of Midcopse, at quest completion — (Velen)",
+      "effect": "Restore a card from your discard pile and play it instantly."
+    },
+    "a1e043bd-ba07-45a6-9958-525ff9ee68d6": {
+      "name": "Eredin: King of the Wild Hunt",
+      "description": "I've long awaited this...",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)",
+      "effect": "Pick any weather card from your deck and play it instantly."
+    },
+    "05ac3710-5337-4f4a-9c26-e6f2db9d44b2": {
+      "name": "Draug",
+      "description": "Some men cannot admit defeat. Some keep fighting from beyond the grave.",
+      "howToGet": "Gwent Quest — Crach an Craite, at quest completion — (Skellige) — [Quest: Gwent: Skellige Style]"
+    },
+    "861b376a-8025-47d3-b65e-b5c1199b986f": {
+      "name": "Imlerith",
+      "description": "Ladd nahw! Kill them! Litter the earth with their entrails!",
+      "howToGet": "Base Deck — Reward for beating an opponent (random) — (In Base Deck)"
+    },
+    "96903648-9ce9-4436-880c-b84be0830815": {
+      "name": "Kayran",
+      "description": "Kill a kayran? Simple. Take your best sword... then sell it and hire a witcher.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "6c5f7030-0103-4297-92ab-467e09b1c4f2": {
+      "name": "Leshen",
+      "description": "We never hunt in these woods. Not even if it means the whole village starves.",
+      "howToGet": "Gwent Quest — Ermion, at quest completion — (Skellige) — [Quest: Gwent: Skellige Style]"
+    },
+    "2cd28cb7-0826-4358-84d9-c126d120f886": {
+      "name": "Arachas",
+      "description": "Ugly - nature's way of saying 'Stay the fuck away.'",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Innkeep of Svorlag — (Skellige)"
+    },
+    "e0ed08df-b0e5-47e0-b78a-576d53daca4f": {
+      "name": "Arachas",
+      "description": "Ugly - nature's way of saying 'Stay the fuck away.'",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of Urialla Harbor — (Skellige)"
+    },
+    "16deb5db-1e70-4881-bc3e-7c972c9565fd": {
+      "name": "Arachas",
+      "description": "Ugly - nature's way of saying 'Stay the fuck away.'",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of Arinbjorn — (Skellige)"
+    },
+    "c62f7a1b-e951-4cf7-9a8b-aeb55a1cc72a": {
+      "name": "Arachas Behemoth",
+      "description": "Like a cross between a crab, a spider...and a ploughin' mountain",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "bdf4f607-648f-4119-ae9b-1002e209debf": {
+      "name": "Botchling",
+      "description": "Admit your mistakes and bury them proper - else they'll come back to haunt you.",
+      "howToGet": "Purchased from Trader (10 Crowns) — Jonas the Innkeep of the New Port Inn, Kaer Trolde Harbor — (Skellige)"
+    },
+    "fda766cc-e77f-471c-b256-6195ec367f3e": {
+      "name": "Celaeno Harpy",
+      "description": "Common harpies feed on carrion. Celaeno harpies... they feed on dreams.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "b922a862-84df-405e-8e39-9d83136e3afb": {
+      "name": "Cockatrice",
+      "description": "Born of an egg laid by a cockerel... if you believe such peasant drivel.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "b2451175-080c-433a-a5df-a2b84f685db8": {
+      "name": "Crone: Brewess",
+      "description": "We'll cut you up, boy. A fine broth you will make.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "27e887d0-4dcc-4d3f-a4f8-a4faf4201a54": {
+      "name": "Crone: Weavess",
+      "description": "I sense your pain. I see your fear...",
+      "howToGet": "Gwent Quest — The Old Sage of Benek — (Velen) — [Quest: Gwent Quest: Velen Players]"
+    },
+    "b880a61c-ec5d-4568-a285-6fad8f61d3e3": {
+      "name": "Crone: Whispess",
+      "description": "I'd be your best - and last.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of Arinbjorn — (Skellige)"
+    },
+    "feaf365e-e402-43b8-98be-638e06794e32": {
+      "name": "Earth Elemental",
+      "description": "How to fight an earth elemental? You don't. You run. Fast as you can.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Jonas the Innkeep of the New Port Inn, Kaer Trolde Harbor — (Skellige)"
+    },
+    "683f8cab-047c-4056-9087-19edd3433c36": {
+      "name": "Endrega",
+      "description": "The nest! Take out the nest, or the bastards'll just keep coming!",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "15e590b6-46c3-4b44-837a-decf5612012b": {
+      "name": "Fiend",
+      "description": "A fiend looks a bit like a deer. An enormous, evil deer.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of Arinbjorn — (Skellige)"
+    },
+    "682b085e-6e2a-43fc-96b9-2c619814b63a": {
+      "name": "Fire Elemental",
+      "description": "Fire is so delightful.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "c50cc3dc-3be2-44b5-9c9e-7e5cfba406fb": {
+      "name": "Foglet",
+      "description": "Fog creeps on little cat feet. Foglets creep over the bodies of their victims.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Innkeep of Svorlag — (Skellige)"
+    },
+    "fdca714f-6a78-42c9-b3c4-8917bed1387c": {
+      "name": "Forktail",
+      "description": "Fork tails... Bah! Fuckers' tails're more like cleavers.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "d8f1e818-91ff-4a74-99ee-4d33c8d027de": {
+      "name": "Frightener",
+      "description": "What have I done?\" the mage cried out, frightened of his own creation.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "46694c37-6ab3-4ebc-a666-f1818acc817c": {
+      "name": "Gargoyle",
+      "description": "Ancient sculptors' nightmarish fantasies, brought to life by bored mages.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "dfa0f899-56e3-4673-af3c-042297bb90d6": {
+      "name": "Ghoul",
+      "description": "If ghouls are part of the Circle of Life... then it's a damn vicious circle.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "24acd7d3-6c95-429d-9341-b4c5c99da66a": {
+      "name": "Ghoul",
+      "description": "If ghouls are part of the Circle of Life... then it's a damn vicious circle.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "d21a26ff-e78a-4ee0-91cb-315332ad0215": {
+      "name": "Ghoul",
+      "description": "If ghouls are part of the Circle of Life... then it's a damn vicious circle.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Innkeep of Harviken — (Skellige)"
+    },
+    "f23d64f8-019f-4f63-802e-9999628cba3f": {
+      "name": "Grave Hag",
+      "description": "Their long tongues're for slurping marrow - and whipping prep.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "03f39015-eaa1-49f1-911e-16e6fe44b7e7": {
+      "name": "Griffin",
+      "description": "Griffins like to toy with their prey. Eat 'em alive, piece by piece.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "764834a1-d892-4131-9bdf-792e43691503": {
+      "name": "Harpy",
+      "description": "There are many species of harpy, and all are kleptomaniacs.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of Harviken — (Skellige)"
+    },
+    "844d38f7-4003-43bf-a4ba-52222e77113d": {
+      "name": "Ice Giant",
+      "description": "Fled one time in my life. From the Ice Giant. And I'm not a bit ashamed.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Innkeep of Svorlag — (Skellige)"
+    },
+    "93e49375-fbd6-4fc7-bfe5-af61ec994612": {
+      "name": "Nekker",
+      "description": "Damn things are almost cute, if you ignore the whole vicious killer aspect.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "4a0e06f0-aff2-4566-bec9-cc975ac0f989": {
+      "name": "Nekker",
+      "description": "Damn things are almost cute, if you ignore the whole vicious killer aspect.",
+      "howToGet": "Purchased from Trader (10 Crowns) — The Innkeep of Harviken — (Skellige)"
+    },
+    "56f75f6b-ceb7-4a2a-9be0-8535d42139bf": {
+      "name": "Nekker",
+      "description": "Damn things are almost cute, if you ignore the whole vicious killer aspect.",
+      "howToGet": "Secondary Quest — Found on the corpse of Hammond the Skelliger, during this quest. — (Skellige) — [Quest: Following the Thread]"
+    },
+    "a72718c0-5d1a-496c-9363-29bb6d49f3f6": {
+      "name": "Plague Maiden",
+      "description": "The sick rave about a boil-pocked woman surrounded by herds of rabid rats...",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "07ef1581-d1f7-470e-8d91-0255618e0b96": {
+      "name": "Toad",
+      "description": "Big. Bad. Ugly. Squats in the sewers.",
+      "howToGet": "Base Deck — Reward for beating an opponent (random) — (In Base Deck)"
+    },
+    "695219d3-fe52-4f60-afcb-49b9638cd13a": {
+      "name": "Vampire: Bruxa",
+      "description": "A vile, bloodthirsty, man-eating hag. Kind of like my mother-in-law.",
+      "howToGet": "Secondary Quest OR Blood and Wine Secondary Quest — Count Gomo Seeling, the Gwent Players of Vegelbud Estate, OR as a quest reward from a garden chest. — (Novigrad) — [Quest: A Matter of Life and Death]"
+    },
+    "ff0996da-ecf4-466c-9754-9ef3b9009db4": {
+      "name": "Vampire: Ekimmara",
+      "description": "Who would think overgrown bats would have a taste for gaudy jewelry?",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of Svorlag — (Skellige)"
+    },
+    "a560ce32-dce9-4f4b-9388-354177af7a0c": {
+      "name": "Vampire: Fleder",
+      "description": "Higher vampires embrace their victims. Fleders rip them to shreds.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Innkeep of Harviken — (Skellige)"
+    },
+    "7924b756-e1a4-4cf4-8f3c-ab26abd57b0d": {
+      "name": "Vampire: Garkain",
+      "description": "Blood-drinkers and corpse-eaters so foul their very ugliness paralyses foes.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "93e6f5f3-71cf-47b4-95bd-155b08029573": {
+      "name": "Vampire: Katakan",
+      "description": "Drinking the blood of the Continent since the Conjunction.",
+      "howToGet": "Gwent Quest — Jarl “Madman” Lugos of Kaer Muire (or Kaer Trolde) — (Skellige) — [Quest: Gwent: Skellige Style]"
+    },
+    "b2a62e93-4ee3-4a7c-a56f-b8c4d2ddfa58": {
+      "name": "Werewolf",
+      "description": "Wolves aren't as bad as they say. Werewolves, though - they're worse.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep of Urialla Harbor — (Skellige)"
+    },
+    "46c51ac6-63ad-43e1-bf1c-6d28d61c5896": {
+      "name": "Wyvern",
+      "description": "Imagine a cross between a winged snake and a nightmare. Wyverns are worse.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "97052c0f-ce49-4863-af5b-e015b583d8ad": {
+      "name": "Crach an Craite",
+      "description": "A king's gotta be wise. A king's gotta command respect. A king's gotta have stones.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)",
+      "effect": "Shuffle all cards from your discard pile back into your deck, then draw a random card."
+    },
+    "8430232f-1a46-4690-880f-04ff0bf1afa4": {
+      "name": "King Bran",
+      "description": "No one can replace Bran. Though they're sure to try.",
+      "howToGet": "Won from a Gwent Player — During the Tournament, or from the Ducal Camerlengo (near The Gran’place). — (Toussaint)",
+      "effect": "Keep up to 2 Siege units on the battlefield after each round (instead of discarding them)."
+    },
+    "7270e18d-1d9b-4b7b-9acf-1b1cd3f3af54": {
+      "name": "Cerys",
+      "description": "They call me Sparrowhawk, know why? Because I eat rats like you for breakfast.",
+      "howToGet": "Won from a Gwent Player — Innkeep at The Barrel and Bung Inn — (Toussaint)"
+    },
+    "4ca5ccdf-fa08-42ee-b357-2e3233ba4a94": {
+      "name": "Ermion",
+      "description": "Only the ignorant dismiss the importance of myths.",
+      "howToGet": "Won from a Gwent Player — Innkeep at The Scarlet Cardinal inn — (Toussaint)"
+    },
+    "698975d2-e10d-43f2-8b5e-6ee179cbe20c": {
+      "name": "Hjalmar",
+      "description": "Instead of mournin' the fallen, let's drink to their memory!",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "bff7e6ea-908d-4f7e-91b8-5d0b7825ac2e": {
+      "name": "Kambi/Hemdall",
+      "description": "When the time comes, the cockerel Kambi shall crow and awaken Hemdall.",
+      "howToGet": "Won from a Gwent Player — Armorer at Beauclair Armory (near Nilfgaardian Embassy) — (Toussaint)"
+    },
+    "548979f4-b895-4b46-bb1b-98d24cf23fc7": {
+      "name": "Berserker/Vildkaarl",
+      "description": "Kill, crush, cleave!",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "41037db3-e225-4670-a310-6adb323a9532": {
+      "name": "Birna Bran",
+      "description": "Skellige must have a strong king. No matter what it takes.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "a4808d3d-280b-42f0-9c15-7e909103a80a": {
+      "name": "Blueboy Lugos",
+      "description": "I'm damn near ready to puke from boredom.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "635c9188-42cf-43de-9044-ef31ff4860ed": {
+      "name": "Clan An Craite Warrior",
+      "description": "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "d3fdad88-85cf-40a8-9ec6-29c36258c12b": {
+      "name": "Clan An Craite Warrior",
+      "description": "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+    },
+    "f5f09845-d2d3-4643-b63c-960973cd3502": {
+      "name": "Clan An Craite Warrior",
+      "description": "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+    },
+    "123d3ebb-5e0e-4eac-8821-759c46967957": {
+      "name": "Clan Brokvar Archer",
+      "description": "So ye can hit a movin' target at two hundred paces. Me, too. In a storm.",
+      "howToGet": "Won from a Gwent Player — Herbalist at Herb Store, in Castel Ravello Vineyard — (Toussaint)"
+    },
+    "922afb81-ebb7-4c6d-897f-99028fcf4b1c": {
+      "name": "Clan Brokvar Archer",
+      "description": "So ye can hit a movin' target at two hundred paces. Me, too. In a storm.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "76628d80-9c6b-4e1f-9d3f-991cea8c77e6": {
+      "name": "Clan Brokvar Archer",
+      "description": "So ye can hit a movin' target at two hundred paces. Me, too. In a storm.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+    },
+    "824ac590-98d9-4759-9453-7cb037cb7f76": {
+      "name": "Clan Dimun Pirate",
+      "description": "Can see the fear in their eyes. Fear o' me... fear o' Clan Dimun!",
+      "howToGet": "Won from a Gwent Player — Merchant, at Dupont & Sons Emporium of Diverse Merchandise (near Metinna Gate) — (Toussaint)"
+    },
+    "bd34b57c-057e-4551-ac11-60e2a2c2b32a": {
+      "name": "Clan Drummond Shield Maiden",
+      "description": "They'll shatter on our shields like waves on a rocky shore.",
+      "howToGet": "Won from a Gwent Player — Armorer at the Armorer’s Workshop — (Toussaint)"
+    },
+    "7f9f2600-c594-4b1d-94ba-fb380eff8e31": {
+      "name": "Clan Drummond Shield Maiden",
+      "description": "They'll shatter on our shields like waves on a rocky shore.",
+      "howToGet": "Won from a Gwent Player — Innkeep at the Cockatrice Inn — (Toussaint)"
+    },
+    "751e8242-b263-4444-9436-a8cdd2521148": {
+      "name": "Clan Drummond Shield Maiden",
+      "description": "They'll shatter on our shields like waves on a rocky shore.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "ddca9536-983a-46a1-8501-fce5129a4221": {
+      "name": "Clan Heymaey Skald",
+      "description": "The deeds of Clan Heymaey will go down in history.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "518d1255-3b08-482a-810a-160e45cdb7cb": {
+      "name": "Clan Tordarroch Armorsmith",
+      "description": "Ye're in for a poundin'.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "8b2c40fc-d7f3-415d-9e93-5b38e5b6e756": {
+      "name": "Donar an Hindar",
+      "description": "I've gathered all the jarls together. Now make your case.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "06c57d00-1e59-4971-962e-a8f0bc65c9b1": {
+      "name": "Draig Bon-Dhu",
+      "description": "Hear ye now the tale of the heroic deeds of Clan an Craite.",
+      "howToGet": "Won from a Gwent Player — Innkeep at The Pheasantry (near Nilfgaardian Embassy) — (Toussaint)"
+    },
+    "e309e828-79a9-43ed-a6e5-4daf432bf826": {
+      "name": "Holger Blackhand",
+      "description": "Now let's drink to Emperor of Nilfgaard - may his prick forever stay limp!",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "8c661494-6be6-412a-b6c1-3b3d88bf92d8": {
+      "name": "Light Longship",
+      "description": "Escape them? In the waters of Skellige? Good luck.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "e416aefc-287e-4215-91f5-3d4325396f48": {
+      "name": "Light Longship",
+      "description": "Escape them? In the waters of Skellige? Good luck.",
+      "howToGet": "Won from a Gwent Player — Herbalist, at the Perfumery (near Nilfgaardian Embassy). — (Toussaint)"
+    },
+    "da34202d-cc1e-496e-8db2-da3453bd67e1": {
+      "name": "Light Longship",
+      "description": "Escape them? In the waters of Skellige? Good luck.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+    },
+    "a95df3e2-b953-49f2-8957-67cffb376729": {
+      "name": "Madman Lugos",
+      "description": "WAAAAAAAAAAGH!!!!",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "05cde6a8-90d1-4cbf-9579-0e2c9234800b": {
+      "name": "Olaf",
+      "description": "Many've tried to defeat Olaf. But won't hear about it from them - they're dead.",
+      "howToGet": "Won from a Gwent Player — Innkeep at The Adder and Jewels Winery (near The Gran’place) — (Toussaint)"
+    },
+    "ce3825d8-3924-4b33-8a22-84e393788380": {
+      "name": "Svanrige",
+      "description": "The emperor also thought him an accidental king. At first.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "03c60609-be84-481c-97b3-a27d6a3fd036": {
+      "name": "Udalryk",
+      "description": "Haaaargh! After me, if ye've the bollocks!",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "4856ba53-5172-44c5-a800-ccd853744c67": {
+      "name": "War Longship",
+      "description": "They say Hemdall's heart swells whenever the longships sail out on a raid.",
+      "howToGet": "Won from a Gwent Player — Innkeep, Tourney Tavern — (Toussaint)"
+    },
+    "f589beb1-8a75-4537-9101-446c62ad95fb": {
+      "name": "War Longship",
+      "description": "They say Hemdall's heart swells whenever the longships sail out on a raid.",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "f56c6841-aff2-4b42-ad4d-e5e588a8f5c8": {
+      "name": "War Longship",
+      "description": "They say Hemdall's heart swells whenever the longships sail out on a raid.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+    },
+    "42d2eae4-145a-4054-8e3c-ae3f828cc8c6": {
+      "name": "Young Berserker/Young Vildkaarl",
+      "description": "Want some?",
+      "howToGet": "Won from a Gwent Player — Pierre the Tailor, Tailor’s Workshop (near The Gran’place) — (Toussaint)"
+    },
+    "bf89ae32-16f3-4657-b7bc-7bab8408ceb0": {
+      "name": "Young Berserker/Young Vildkaarl",
+      "description": "Want some?",
+      "howToGet": "Won from a Gwent Player — Blacksmith, a the Blacksmith’s Forge — (Toussaint)"
+    },
+    "0da59667-79ac-4a5e-8e5c-40a3d97ec00d": {
+      "name": "Young Berserker/Young Vildkaarl",
+      "description": "Want some?",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "d41eec63-3f9d-4156-a045-b9aebae43cbd": {
+      "name": "Mardroeme",
+      "description": "Eat enough of them, and the world will never be the same...",
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
+    },
+    "35f27b09-2ce3-4d81-bba0-6c142d608dd3": {
+      "name": "Mardroeme",
+      "description": "Eat enough of them, and the world will never be the same...",
+      "howToGet": "Won from a Gwent Player — Herbalist, at the Herb Store (near Metinna Gate) — (Toussaint)"
+    },
+    "82ca9c60-c8fa-47f7-8ecd-e124861efa97": {
+      "name": "Mardroeme",
+      "description": "Eat enough of them, and the world will never be the same...",
+      "howToGet": "Won from a Gwent Player — Madame, at the Belles of Beauclair - House of Pleasure (near Beauclair Port) — (Toussaint)"
+    },
+    "6ef8f46c-d640-4d64-9b54-d3a51d5b5719": {
+      "name": "Cirilla Fiona Elen Riannon",
+      "description": "Know when fairy tales cease to be tales? When people start believing in them.",
+      "howToGet": "Gwent Quest — Scoia’Tael Trader of Novigrad Forest (west of Farcorners, in woods) — (Novigrad) — [Quest: Gwent Quest: Big City Players]"
+    },
+    "c75db0f1-ccf5-49cb-859f-2a62d894c1e6": {
+      "name": "Geralt of Rivia",
+      "description": "If that's what it takes to save the world, it'd better to let that world die.",
+      "howToGet": "Gwent Quest — Thaler, at the end of Secondary Quest: A Deadly Plot, after Thaler is rescued from Troll Cave — (Velen)"
+    },
+    "e34935ce-d4cd-4f38-a097-7f30e4f3d051": {
+      "name": "Mysterious Elf",
+      "description": "You humans have... unusual tastes.",
+      "howToGet": "Gwent Quest — Gremist the Chemist, Druid of Gedyneith — (Skellige) — [Quest: Gwent: Skellige Style]"
+    },
+    "32c9e258-6624-49fe-8007-5331c028be1c": {
+      "name": "Triss Merigold",
+      "description": "I can take care of myself. Trust me.",
+      "howToGet": "Gwent Quest — Lambert at the Nowhere Inn (or Kaer Morhen) — (Novigrad) — [Quest: Gwent Quest: Old Pals]"
+    },
+    "819971dd-51fa-4381-8858-73f8a35d0d6f": {
+      "name": "Yennefer of Vengerberg",
+      "description": "Magic is Chaos, Art and Science. It is a curse, a blessing and a progression.",
+      "howToGet": "Gwent Quest — Stjepan the Innkeep, at the Alchemy Inn in Oxenfurt — (Oxenfurt) — [Quest: Gwent Quest: Playing Innkeeps]"
+    },
+    "86c0083e-5c8a-4149-9324-9837c72c7672": {
+      "name": "Cow/Bovine Defense Force",
+      "description": "Mooo!",
+      "howToGet": "Picked up (loose card) — Found in the upper loft of the main barn building of Brunwich — (Novigrad)"
+    },
+    "731c2ccb-469a-487a-9e19-1da2e454ec91": {
+      "name": "Dandelion",
+      "description": "Dandelion, you're a cynic, a lecher, a whoremonger, a liar - and my best friend.",
+      "howToGet": "Secondary Quest — Sir Marius Florin, the Gwent Players of Vegelbud Estate — (Novigrad) — [Quest: A Matter of Life and Death]"
+    },
+    "07f1d85d-6e81-4ebb-b93b-d29c63d2e280": {
+      "name": "Emiel Regis Rohellec Terzieff",
+      "description": "Men, the polite ones, at least, would call me a monster. A blood-drinking freak.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "8d1aaea2-ba72-4b72-95a7-f605e4d712ba": {
+      "name": "Gaunter O’Dimm",
+      "description": "He always grants exactly what you wish for. That's the problem.",
+      "howToGet": "Won from a Gwent Player, OR Purchased from Trader (20 Crowns) — Reward for beating Hilbert the Auction Bidder at the Borsodi Auction House in Oxenfurt, OR (if missed during quest) purchased from The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Oxenfurt)"
+    },
+    "9d43dbb9-ddd2-49a7-9631-d0a49030addc": {
+      "name": "Gaunter O’Dimm: Darkness",
+      "description": "Fear not the shadows, but the light.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Ofieri Merchant of Upper Mill — (Novigrad)"
+    },
+    "cb7ae013-8ce3-4a8c-b2c2-5b8aaacf9875": {
+      "name": "Gaunter O’Dimm: Darkness",
+      "description": "Fear not the shadows, but the light.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
+    },
+    "19d86101-b25d-4ce0-a925-bcee2adf1f4b": {
+      "name": "Gaunter O’Dimm: Darkness",
+      "description": "Fear not the shadows, but the light.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "51c48194-715b-44a3-b204-d3411f9eeaaf": {
+      "name": "Olgierd von Everec",
+      "description": "At least you now know I don't easily lose my head",
+      "howToGet": "Won from a Gwent Player — Reward for beating Shani, at her Clinic in Oxenfurt — (Oxenfurt)"
+    },
+    "f3b216f7-268d-4048-b0db-abd0f11f26c0": {
+      "name": "Roach",
+      "description": "Come on, Roach! Faster!",
+      "howToGet": "GOG / My Rewards — Play GWENT: The Witcher Card Game on the same GOG account (Patch 4.0+)."
+    },
+    "97bf7b39-b2a4-4c20-963f-df483e22f5ea": {
+      "name": "Vesemir",
+      "description": "If you're to be hanged, ask for water. Anything can happen before they fetch it.",
+      "howToGet": "Gwent Quest — Vimme Vivaldi, the Dwarven Banker of Hierarch Square — (Novigrad) — [Quest: Gwent Quest: Big City Players]"
+    },
+    "282e99b1-5a43-4e9b-9af3-db16e0a394c8": {
+      "name": "Villentretenmerth",
+      "description": "Also calls himself Borkh Three Jackdaws... he's not the best at names.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "c9c29894-51ab-446d-b9da-2181209373fd": {
+      "name": "Zoltan Chivay",
+      "description": "Life without old mates and booze is like a woman without a rump.",
+      "howToGet": "Won from a Gwent Player — Reward for beating Aldert Geert (Gwent scholar) in the White Orchard Tavern or underneath the Hanged Man's Tree in Velen. — (White Orchard)"
+    },
+    "6765a76d-0112-4127-9755-ba573866733a": {
+      "name": "Commander’s Horn",
+      "description": "Plus one to morale, minus three to hearing.",
+      "howToGet": "Purchased from Trader (10 Crowns) — Innkeep at the Inn at the Crossroads — (Velen)"
+    },
+    "2d86ecf1-72c2-41c1-9d83-209854e57449": {
+      "name": "Commander’s Horn",
+      "description": "Plus one to morale, minus three to hearing.",
+      "howToGet": "Purchased from Trader (10 Crowns) — Marquise Serenity at Passiflora — (Novigrad)"
+    },
+    "e2fcec4d-f287-4be1-ab2c-8bf23b5fa811": {
+      "name": "Commander’s Horn",
+      "description": "Plus one to morale, minus three to hearing.",
+      "howToGet": "Purchased from Trader (10 Crowns) — Stjepan the Innkeep, at the Alchemy Inn in Oxenfurt — (Oxenfurt)"
+    },
+    "e33d6ed0-5f8d-4ee6-b795-515a81917933": {
+      "name": "Decoy",
+      "description": "When you run out of peasants, decoys also make decent arrow fodder.",
+      "howToGet": "Purchased from Trader (20 Crowns) — Elsa, Innkeeperess of White Orchard Tavern or The Innkeep at Seven Cats Inn — (White Orchard)"
+    },
+    "b48576da-e3a0-415c-8113-402597278490": {
+      "name": "Decoy",
+      "description": "When you run out of peasants, decoys also make decent arrow fodder.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Quartermaster, Baron’s Store, Crow’s Perch — (Velen)"
+    },
+    "13fad1ba-f823-4b49-9594-af3dc04103e0": {
+      "name": "Decoy",
+      "description": "When you run out of peasants, decoys also make decent arrow fodder.",
+      "howToGet": "Purchased from Trader (20 Crowns) — The Innkeep at Seven Cats Inn — (Novigrad)"
+    },
+    "8cef86ce-33ac-455d-9eda-78dea8a0890e": {
+      "name": "Scorch",
+      "description": "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Innkeeper at Cunny of the Goose — (Novigrad)"
+    },
+    "54bf7f8f-8668-4e7b-ada1-34f075a83724": {
+      "name": "Scorch",
+      "description": "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.",
+      "howToGet": "Purchased from Trader (50 Crowns) — Jonas the Innkeep of the New Port Inn, Kaer Trolde Harbor — (Skellige)"
+    },
+    "b8db84e5-e650-4737-82dd-7a4de6c9633e": {
+      "name": "Scorch",
+      "description": "Pillars of flame turn the mightiest to ash. All others tremble in shock and awe.",
+      "howToGet": "Purchased from Trader (50 Crowns) — The Innkeep of Urialla Harbor — (Skellige)"
+    },
+    "777d968a-4949-41b8-a11e-02a8a4387e52": {
+      "name": "Biting Frost",
+      "description": "Best part about frost - bodies of the fallen don't rot so quickly.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "1993b144-7915-4036-becd-6e8fd1a3aebb": {
+      "name": "Biting Frost",
+      "description": "Best part about frost - bodies of the fallen don't rot so quickly.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "c596c9c4-983c-40a9-bc7c-1d6dd704f1b1": {
+      "name": "Biting Frost",
+      "description": "Best part about frost - bodies of the fallen don't rot so quickly.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "0b59f874-5b44-4f74-b9b4-2c8152fc7b55": {
+      "name": "Clear Weather",
+      "description": "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all...",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "c93e5116-25f0-4697-8444-e0194eb818aa": {
+      "name": "Clear Weather",
+      "description": "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all...",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "5d1caecd-4a1d-4af1-8cb5-4183507d4625": {
+      "name": "Impenetrable Fog",
+      "description": "A good commander's dream... a bad one's horror.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "d9c637f9-5b7e-479c-81d3-a755c76c05ad": {
+      "name": "Impenetrable Fog",
+      "description": "A good commander's dream... a bad one's horror.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "b78d53ac-925c-4312-8252-6da154b692bc": {
+      "name": "Impenetrable Fog",
+      "description": "A good commander's dream... a bad one's horror.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "1b48af02-8ec3-49a7-806d-a6d0c6d44752": {
+      "name": "Skellige Storm",
+      "description": "This ain't no normal storm. This here's the wrath of the gods.",
+      "howToGet": "Won from a Gwent Player — Butcher, at the Butcher’s Shop (near Beauclair Port) — (Toussaint)"
+    },
+    "f3d27e45-554b-46b5-9287-e546e83cd618": {
+      "name": "Skellige Storm",
+      "description": "This ain't no normal storm. This here's the wrath of the gods.",
+      "howToGet": "Won from a Gwent Player — Armorer, at the Armorer’s Tent — (Toussaint)"
+    },
+    "9f8e7cbb-69ea-49d6-b1a0-b218b1ce308d": {
+      "name": "Skellige Storm",
+      "description": "This ain't no normal storm. This here's the wrath of the gods.",
+      "howToGet": "Won from a Gwent Player — Barber, at the Barber’s Tent — (Toussaint)"
+    },
+    "9fe1f19c-d822-4aea-9e99-46706272b49d": {
+      "name": "Torrential Rain",
+      "description": "Even the rain in this land smells like piss.",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+    },
+    "14a1c7d4-eec4-4e4a-b9ab-fac645054b1a": {
+      "name": "Torrential Rain",
+      "description": "Even the rain in this land smells like piss.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    }
+  }
+}

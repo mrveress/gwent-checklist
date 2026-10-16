@@ -1,0 +1,4346 @@
+{
+  "attributes": {
+    "faction": [
+      "neutral",
+      "northern",
+      "nilfgaard",
+      "scoiatael",
+      "monsters",
+      "skellige"
+    ],
+    "type": [
+      "leader",
+      "hero",
+      "unit",
+      "special",
+      "weather"
+    ],
+    "expansion": [
+      "base",
+      "hearts-of-stone",
+      "blood-and-wine"
+    ],
+    "row": [
+      "close",
+      "ranged",
+      "siege",
+      "agile"
+    ],
+    "ability": [
+      "hero",
+      "spy",
+      "medic",
+      "muster",
+      "tight_bond",
+      "morale_boost",
+      "agile",
+      "scorch",
+      "berserker",
+      "mardroeme",
+      "commanders_horn",
+      "decoy",
+      "summon_avenger",
+      "weather_frost",
+      "weather_fog",
+      "weather_rain",
+      "weather_storm",
+      "clear_weather"
+    ]
+  },
+  "cards": [
+    {
+      "id": "39967ced-c211-4892-9319-0d99987dbba0",
+      "slug": "foltest-king-of-temeria",
+      "faction": "northern",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "099ff91b-506f-408c-a496-3794ced00042",
+      "preselected": true
+    },
+    {
+      "id": "5f41816a-73e1-4fba-8eeb-2cd801632eb0",
+      "slug": "foltest-lord-commander-of-the-north",
+      "faction": "northern",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "61640dd9-0bed-40ab-a3eb-d8b166c13302",
+      "preselected": false
+    },
+    {
+      "id": "9ed87d8e-1aa3-4af9-a811-c2f331d50b3d",
+      "slug": "foltest-son-of-medell",
+      "faction": "northern",
+      "type": "leader",
+      "expansion": "hearts-of-stone",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader",
+        "hearts-of-stone"
+      ],
+      "imageId": "d3d4e11d-4b48-4ed7-991b-3226e4755244",
+      "preselected": false
+    },
+    {
+      "id": "8abc5e02-cdaf-46fb-99e7-f538b8e09561",
+      "slug": "foltest-the-siegemaster",
+      "faction": "northern",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "commanders_horn"
+      ],
+      "tags": [
+        "leader",
+        "commanders_horn"
+      ],
+      "imageId": "11d538f2-ba58-4511-bdd0-6d752cb9b808",
+      "preselected": false
+    },
+    {
+      "id": "d2928dae-2221-4a7d-a16d-e00278e9ebf3",
+      "slug": "foltest-the-steel-forged",
+      "faction": "northern",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "65532472-14ba-40e4-ab77-30b189e201bd",
+      "preselected": false
+    },
+    {
+      "id": "6225ca77-484f-4c47-b92c-152fe97e954b",
+      "slug": "esterad-thyssen",
+      "faction": "northern",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "4e0ea766-d1fd-4d45-83a4-7245db6270ae",
+      "preselected": false
+    },
+    {
+      "id": "23a8599f-7fc6-4a03-ae84-5822ad3fd3b0",
+      "slug": "john-natalis",
+      "faction": "northern",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "88da4956-79ca-4431-a7dc-8c4a64e8f7a3",
+      "preselected": false
+    },
+    {
+      "id": "c8d4498f-d524-421d-b4f5-6a2aaa6ac8a7",
+      "slug": "philippa-eilhart",
+      "faction": "northern",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "c511b416-1d89-428c-b9cd-78d04438363b",
+      "preselected": false
+    },
+    {
+      "id": "ccab4d6b-e368-406a-b2ad-529dd27dc2e2",
+      "slug": "vernon-roche",
+      "faction": "northern",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "e8e6c85a-fb1f-4eec-ba9d-6cfd77b5f72a",
+      "preselected": false
+    },
+    {
+      "id": "fcd97364-7215-4dc9-97be-6b183bbc0728",
+      "slug": "ballista",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "e7e9aea2-e036-4446-bd07-d37a50031737",
+      "preselected": true
+    },
+    {
+      "id": "4a8e79ef-1c0c-4a7d-b390-029f919d8342",
+      "slug": "blue-stripes-commando",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "5ab05d1b-9b52-482d-a8b4-e8b54a6342a8",
+      "preselected": false
+    },
+    {
+      "id": "5e66dbf4-f8b6-4e00-b169-af9405f7594b",
+      "slug": "blue-stripes-commando",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "5ab05d1b-9b52-482d-a8b4-e8b54a6342a8",
+      "preselected": true
+    },
+    {
+      "id": "ff1846ec-f008-428d-8444-ea350464cd8d",
+      "slug": "blue-stripes-commando",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "5ab05d1b-9b52-482d-a8b4-e8b54a6342a8",
+      "preselected": false
+    },
+    {
+      "id": "46436ea2-5e02-46a9-80a7-cd4780c57ab8",
+      "slug": "catapult",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 8,
+      "row": "siege",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "1d06202d-1955-40c6-b9c6-4e38e10e4c22",
+      "preselected": false
+    },
+    {
+      "id": "93b60f16-b1ab-4284-bfeb-e4411ff27e0d",
+      "slug": "catapult",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 8,
+      "row": "siege",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "1d06202d-1955-40c6-b9c6-4e38e10e4c22",
+      "preselected": false
+    },
+    {
+      "id": "20447af8-14db-40f6-8fa2-cf2259fe40f9",
+      "slug": "crinfrid-reavers-dragon-hunter",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "ranged",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "278e7e0a-e97c-4699-b562-60299afd596c",
+      "preselected": false
+    },
+    {
+      "id": "69a5de54-668d-42ba-af07-b604337df19b",
+      "slug": "crinfrid-reavers-dragon-hunter",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "ranged",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "278e7e0a-e97c-4699-b562-60299afd596c",
+      "preselected": false
+    },
+    {
+      "id": "6454acdb-1dc6-487a-9b91-a2f1ab1880ec",
+      "slug": "crinfrid-reavers-dragon-hunter",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "ranged",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "278e7e0a-e97c-4699-b562-60299afd596c",
+      "preselected": false
+    },
+    {
+      "id": "75e98cd5-e266-4de4-aefe-758f095054d8",
+      "slug": "dethmold",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "14007c1c-0964-4e18-9859-073d1bdc6a8f",
+      "preselected": true
+    },
+    {
+      "id": "7ef91ca8-b999-411e-a46a-f124d30f5c8b",
+      "slug": "dun-banner-medic",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "siege",
+      "abilities": [
+        "medic"
+      ],
+      "tags": [
+        "unit",
+        "medic"
+      ],
+      "imageId": "8cf46421-181c-45f5-8389-7997971f0dea",
+      "preselected": true
+    },
+    {
+      "id": "bbd5fd3b-228b-488d-914d-1c82cdc36870",
+      "slug": "kaedweni-siege-expert",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "siege",
+      "abilities": [
+        "morale_boost"
+      ],
+      "tags": [
+        "unit",
+        "morale_boost"
+      ],
+      "imageId": "2f503dcc-2f43-4d25-9c0a-3444fd46653d",
+      "preselected": true
+    },
+    {
+      "id": "74d9216a-f423-4abd-aaca-90ffcf851558",
+      "slug": "kaedweni-siege-expert",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "siege",
+      "abilities": [
+        "morale_boost"
+      ],
+      "tags": [
+        "unit",
+        "morale_boost"
+      ],
+      "imageId": "2f503dcc-2f43-4d25-9c0a-3444fd46653d",
+      "preselected": true
+    },
+    {
+      "id": "1d0e0631-96b7-4659-868f-51408918fd44",
+      "slug": "kaedweni-siege-expert",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "siege",
+      "abilities": [
+        "morale_boost"
+      ],
+      "tags": [
+        "unit",
+        "morale_boost"
+      ],
+      "imageId": "2f503dcc-2f43-4d25-9c0a-3444fd46653d",
+      "preselected": false
+    },
+    {
+      "id": "422e7d15-da1e-4c00-9f69-fd45b4d018f5",
+      "slug": "keira-metz",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "e6064c17-e66c-4782-97af-cc50148d9cc3",
+      "preselected": true
+    },
+    {
+      "id": "64060493-5e39-47a4-af26-bf4a9ed51497",
+      "slug": "poor-f-king-infantry",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "0f5f2b1a-7586-46d4-8eaf-0ecf019c72ea",
+      "preselected": false
+    },
+    {
+      "id": "7606097d-2b3a-48a0-af7d-59bfc2eac1da",
+      "slug": "poor-f-king-infantry",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "0f5f2b1a-7586-46d4-8eaf-0ecf019c72ea",
+      "preselected": false
+    },
+    {
+      "id": "4e3b7653-6842-4107-acd4-1e925ce77eeb",
+      "slug": "poor-f-king-infantry",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "0f5f2b1a-7586-46d4-8eaf-0ecf019c72ea",
+      "preselected": true
+    },
+    {
+      "id": "6b707f7c-6ef5-46e2-92e0-4c8e10aa20e3",
+      "slug": "prince-stennis",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [
+        "spy"
+      ],
+      "tags": [
+        "unit",
+        "spy"
+      ],
+      "imageId": "e741bdb3-29f6-4003-8774-38cde3c284c9",
+      "preselected": true
+    },
+    {
+      "id": "c6ce2684-b86f-4d85-8266-6963c71aab24",
+      "slug": "redanian-foot-soldier",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "30d82a83-2772-4e52-9f17-0edd2837d4e8",
+      "preselected": true
+    },
+    {
+      "id": "1813fcb9-a84a-46e8-bee7-34719c9f614c",
+      "slug": "redanian-foot-soldier",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "d582cc5d-a8ec-4229-bdd2-78ce0c154c21",
+      "preselected": true
+    },
+    {
+      "id": "97d7c964-8cca-4e2c-9272-7fb27886a4d0",
+      "slug": "sabrina-glevissig",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "109faba5-7745-4e8a-a8c7-02632798546a",
+      "preselected": true
+    },
+    {
+      "id": "6fc35df6-46bd-45f4-8200-5b9bd67cedd1",
+      "slug": "sheldon-skaggs",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "68895aff-f2b2-482c-a74f-67e047fe6a7b",
+      "preselected": true
+    },
+    {
+      "id": "82126ffc-f6bc-47c5-b44d-8abbbc593965",
+      "slug": "siege-tower",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "14647f92-717e-413f-9ca1-f9ffd039a978",
+      "preselected": false
+    },
+    {
+      "id": "2a4ad03f-9b44-4f80-a548-e46fba4be27a",
+      "slug": "siegfried-of-denesle",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "d1979cd1-3ebb-48ff-99bb-ff598357a441",
+      "preselected": true
+    },
+    {
+      "id": "c9ca43e5-f493-4200-9e77-53920ad80823",
+      "slug": "sigismund-dijkstra",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "spy"
+      ],
+      "tags": [
+        "unit",
+        "spy"
+      ],
+      "imageId": "4975f0fc-594a-4b50-88db-1e9bd57a3731",
+      "preselected": false
+    },
+    {
+      "id": "34634430-21d1-4805-9bc4-6841eb3688f6",
+      "slug": "sile-de-tansarville",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "1e2ebf94-2d38-4cde-add5-41f16687ef4d",
+      "preselected": true
+    },
+    {
+      "id": "5084ed11-795c-490b-9823-eab7f4f65b50",
+      "slug": "thaler",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "siege",
+      "abilities": [
+        "spy"
+      ],
+      "tags": [
+        "unit",
+        "spy"
+      ],
+      "imageId": "887564dc-10df-4c37-9219-651d05cc3155",
+      "preselected": false
+    },
+    {
+      "id": "b5cbd608-dc4a-470d-8734-0beb5f7067dd",
+      "slug": "trebuchet",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "a206d9da-7375-46af-a5d1-40cec999ede0",
+      "preselected": true
+    },
+    {
+      "id": "e8c3e957-6c50-457b-9d28-04a68f713a9f",
+      "slug": "trebuchet",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "76c63b6e-5ed9-485b-bfd1-5246ecc61a30",
+      "preselected": true
+    },
+    {
+      "id": "0ad02b0e-9923-4fe9-9373-b34d9f0e07aa",
+      "slug": "ves",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "fa4d2959-caf6-4e90-9c86-0ece86193047",
+      "preselected": true
+    },
+    {
+      "id": "0110a0d0-4650-4848-b8c7-0499b095ba72",
+      "slug": "yarpen-zigrin",
+      "faction": "northern",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "ea2becab-b132-4f33-9d64-458afa690d60",
+      "preselected": true
+    },
+    {
+      "id": "f0df90c4-287f-4c97-9ae4-52a4a9041d8a",
+      "slug": "emhyr-var-emreis-emperor-of-nilfgaard",
+      "faction": "nilfgaard",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "98e3a3b3-8b51-4c4f-a884-ea23d51a75d6",
+      "preselected": false
+    },
+    {
+      "id": "43de0905-0088-435e-b25e-6a4cf2124c4a",
+      "slug": "emhyr-var-emreis-his-imperial-majesty",
+      "faction": "nilfgaard",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "37e2d46f-a489-4e89-89ee-b4df01509d7c",
+      "preselected": true
+    },
+    {
+      "id": "64d8fc19-26ca-4c4f-a13c-3279e6495e41",
+      "slug": "emhyr-var-emreis-invader-of-the-north",
+      "faction": "nilfgaard",
+      "type": "leader",
+      "expansion": "hearts-of-stone",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader",
+        "hearts-of-stone"
+      ],
+      "imageId": "147e617a-cc79-412c-a9e9-b2f52607bd16",
+      "preselected": false
+    },
+    {
+      "id": "a06b6166-d33f-4538-8e8b-f73b8d2f6652",
+      "slug": "emhyr-var-emreis-the-relentless",
+      "faction": "nilfgaard",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "75f54ff8-7e90-4477-a6c7-cff71d380b40",
+      "preselected": false
+    },
+    {
+      "id": "db78dace-b5e0-4945-b823-269e06baa667",
+      "slug": "emhyr-var-emreis-the-white-flame",
+      "faction": "nilfgaard",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "814257fd-82e4-4923-b85e-445e6b204e5e",
+      "preselected": false
+    },
+    {
+      "id": "b95e413f-025d-4518-b80c-e66f56a914af",
+      "slug": "letho-of-gulet",
+      "faction": "nilfgaard",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "d1312b01-3450-4919-9bdd-b760d3668deb",
+      "preselected": false
+    },
+    {
+      "id": "79f97cc7-ed54-493e-8d82-5017bbe6f1fc",
+      "slug": "menno-coehorn",
+      "faction": "nilfgaard",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero",
+        "medic"
+      ],
+      "tags": [
+        "hero",
+        "medic"
+      ],
+      "imageId": "713809aa-2e7e-4ee1-8a9b-4e8703ee699c",
+      "preselected": false
+    },
+    {
+      "id": "6934ba6b-47f0-4025-bc1c-28a8f0eb8272",
+      "slug": "morvran-voorhis",
+      "faction": "nilfgaard",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "siege",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "36f8edfb-d3d7-42d3-bd35-d63eaf820782",
+      "preselected": false
+    },
+    {
+      "id": "89fae65f-768f-4d26-8eb4-81d0bc5e477b",
+      "slug": "tibor-eggebracht",
+      "faction": "nilfgaard",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "ffe6959e-cfb7-4d5f-80df-0b8778c79673",
+      "preselected": false
+    },
+    {
+      "id": "d3ce29c4-0090-455f-8c26-8ee98021763e",
+      "slug": "albrich",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "c5461eab-bffe-4712-993d-bf3a0be0824e",
+      "preselected": false
+    },
+    {
+      "id": "bfbbbc1a-16df-428f-ab4d-2f9eb5c7beff",
+      "slug": "assire-var-anahid",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "eda38cd1-f7e0-4284-a666-6dbe59703ea8",
+      "preselected": false
+    },
+    {
+      "id": "de2f4bbd-6893-44cf-8202-f8ca85d09f14",
+      "slug": "black-infantry-archer",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "b12f25d8-e4f7-44e4-925d-e8c75060dbde",
+      "preselected": false
+    },
+    {
+      "id": "e32746f3-4a0c-4e96-a3b7-81e4a81a02c8",
+      "slug": "black-infantry-archer",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "6c92a383-eb58-4972-9010-30a5493f504d",
+      "preselected": false
+    },
+    {
+      "id": "ddf02869-ffdc-46d4-9916-19d904ff9aff",
+      "slug": "cahir-mawr-dyffryn-aep-ceallach",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "52be7a50-0507-4e0e-9685-981c1b39c9e6",
+      "preselected": false
+    },
+    {
+      "id": "8a1ee4b3-2285-4967-adc4-36f5b472e0f7",
+      "slug": "cynthia",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "f476ab88-c7e2-4eee-99ca-2db468671a43",
+      "preselected": false
+    },
+    {
+      "id": "0550bf2b-97c9-4ec8-b188-226688588ed5",
+      "slug": "etolian-auxiliary-archers",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "ranged",
+      "abilities": [
+        "medic"
+      ],
+      "tags": [
+        "unit",
+        "medic"
+      ],
+      "imageId": "1b0e410b-2ff3-41fe-ada3-01a0d0cb40c9",
+      "preselected": false
+    },
+    {
+      "id": "75d55723-6fb6-4f6a-901e-6816bc0734ad",
+      "slug": "etolian-auxiliary-archers",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "ranged",
+      "abilities": [
+        "medic"
+      ],
+      "tags": [
+        "unit",
+        "medic"
+      ],
+      "imageId": "180c9183-6ae5-4f53-a463-d554a17bbd69",
+      "preselected": false
+    },
+    {
+      "id": "4beb1ddc-a132-4d1d-98c4-446b8aa96e6f",
+      "slug": "fringilla-vigo",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "060c3cb1-c32a-4d1f-9e87-54469b918d58",
+      "preselected": false
+    },
+    {
+      "id": "d5d68eee-fe66-4b70-991b-b04b25b79b25",
+      "slug": "heavy-zerrikanian-fire-scorpion",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 10,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "998b37d0-993e-4f7a-bb53-505a39170ac2",
+      "preselected": false
+    },
+    {
+      "id": "c9a7d71c-1e43-4e93-99c7-2ad215fef92e",
+      "slug": "impera-brigade-guard",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "caa66880-b1a8-449d-b156-3b8309e932c9",
+      "preselected": false
+    },
+    {
+      "id": "85ae5663-c656-466d-9b0c-673b044dd4a9",
+      "slug": "impera-brigade-guard",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "caa66880-b1a8-449d-b156-3b8309e932c9",
+      "preselected": false
+    },
+    {
+      "id": "84725b04-a7f7-4253-a7f1-94b8d735ac0c",
+      "slug": "impera-brigade-guard",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "caa66880-b1a8-449d-b156-3b8309e932c9",
+      "preselected": false
+    },
+    {
+      "id": "aa5604e9-2fa0-4718-8d48-c0f1abe77f3c",
+      "slug": "impera-brigade-guard",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "caa66880-b1a8-449d-b156-3b8309e932c9",
+      "preselected": false
+    },
+    {
+      "id": "226b5fe1-f084-44c0-ab10-57db03d789a2",
+      "slug": "morteisen",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "868f07dd-84b5-41cb-b7e1-da80f5db3451",
+      "preselected": false
+    },
+    {
+      "id": "8bad4459-d5b8-4baf-aae7-b691475095ac",
+      "slug": "nausicaa-cavalry-rider",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "d047181d-9b98-4932-8c25-6637efe49d71",
+      "preselected": false
+    },
+    {
+      "id": "3e1e2ed7-758c-4585-be14-f217c2212f3b",
+      "slug": "nausicaa-cavalry-rider",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "d047181d-9b98-4932-8c25-6637efe49d71",
+      "preselected": false
+    },
+    {
+      "id": "2b3230f4-635f-416c-a2d0-c9b06dfeb0ab",
+      "slug": "nausicaa-cavalry-rider",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "d047181d-9b98-4932-8c25-6637efe49d71",
+      "preselected": false
+    },
+    {
+      "id": "d0839741-2ae5-45e2-b464-412ff84dd88f",
+      "slug": "puttkammer",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "a5c0b248-b1d0-4713-a12f-e607b7d864d7",
+      "preselected": false
+    },
+    {
+      "id": "6487197f-a71d-4898-9890-f7bf4c368a40",
+      "slug": "rainfarn",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "71063c47-1e13-4563-9ddc-09ec373e300a",
+      "preselected": false
+    },
+    {
+      "id": "6ee19241-94df-4348-a2a6-2647ea550a47",
+      "slug": "renuald-aep-matsen",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "de87a4f6-39d2-4b9c-803f-8d52c3662607",
+      "preselected": false
+    },
+    {
+      "id": "82a93618-8227-4d3c-8b07-9fc4e1f9f98c",
+      "slug": "rotten-mangonel",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "ad441198-aecd-48a4-9cc1-a748256ebca4",
+      "preselected": false
+    },
+    {
+      "id": "7262ae28-d836-4de6-9489-2d1d849cda8a",
+      "slug": "shilard-fitz-oesterlen",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 7,
+      "row": "close",
+      "abilities": [
+        "spy"
+      ],
+      "tags": [
+        "unit",
+        "spy"
+      ],
+      "imageId": "6c3ed06c-4347-4311-bcab-17201d84c326",
+      "preselected": false
+    },
+    {
+      "id": "b404fb5a-907d-4801-a769-b0cf2e0b2879",
+      "slug": "siege-engineer",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "f72382ba-3d3a-43b9-8494-f967a7218d5e",
+      "preselected": false
+    },
+    {
+      "id": "d1853f3d-ad3a-4a64-a8ed-53fba563f05e",
+      "slug": "siege-technician",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 0,
+      "row": "siege",
+      "abilities": [
+        "medic"
+      ],
+      "tags": [
+        "unit",
+        "medic"
+      ],
+      "imageId": "771e3fed-2a6a-4072-8c9f-73f3b9737415",
+      "preselected": false
+    },
+    {
+      "id": "71fd5b67-7d0f-42a1-b730-96792ce515c8",
+      "slug": "stefan-skellen",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 9,
+      "row": "close",
+      "abilities": [
+        "spy"
+      ],
+      "tags": [
+        "unit",
+        "spy"
+      ],
+      "imageId": "db99f8b7-d0a7-47c5-8eb0-a8019d678116",
+      "preselected": false
+    },
+    {
+      "id": "68a93d62-b606-4d25-861b-d61ad78d783c",
+      "slug": "sweers",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "d631fac1-bb9c-400b-8932-af33c18146c9",
+      "preselected": false
+    },
+    {
+      "id": "34516e70-0704-4ffc-a705-9cf8e22d955a",
+      "slug": "vanhemar",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "534b9f57-a3ca-4de5-98e0-c65a14895603",
+      "preselected": false
+    },
+    {
+      "id": "461daf74-3010-4da4-8823-f4d89327019f",
+      "slug": "vattier-de-rideaux",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "spy"
+      ],
+      "tags": [
+        "unit",
+        "spy"
+      ],
+      "imageId": "32b944e2-8723-4cfe-aa02-9c1ab6506435",
+      "preselected": false
+    },
+    {
+      "id": "3da4b088-c559-44d6-befe-4bbc85fcf6d8",
+      "slug": "vreemde",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "7374d43b-07dc-4bba-8ed9-7ac107092bfd",
+      "preselected": false
+    },
+    {
+      "id": "54650a4e-a357-4c2a-90a3-e5f847e80ca5",
+      "slug": "young-emissary",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "9bb0363e-cd82-48bc-b4f3-4ad34d518f31",
+      "preselected": false
+    },
+    {
+      "id": "d48eafb1-2298-4d5c-8fb4-57612e16a904",
+      "slug": "young-emissary",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond"
+      ],
+      "imageId": "ebe12acf-cd36-406b-8066-32bf04d27a0b",
+      "preselected": false
+    },
+    {
+      "id": "e3085855-7cd9-4a49-b877-d17bb1d7c107",
+      "slug": "zerrikanian-fire-scorpion",
+      "faction": "nilfgaard",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "ffbd5222-a960-478f-9375-26097e2129cc",
+      "preselected": false
+    },
+    {
+      "id": "f036d327-e8c3-426f-9558-7ec5c6657a81",
+      "slug": "francesca-findabair-daisy-of-the-valley",
+      "faction": "scoiatael",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "45979ee4-dfa9-4715-9188-8298dfd8f1b2",
+      "preselected": false
+    },
+    {
+      "id": "f201d6f1-1d21-450f-845f-ac8b36ba92c1",
+      "slug": "francesca-findabair-hope-of-the-aen-seidhe",
+      "faction": "scoiatael",
+      "type": "leader",
+      "expansion": "hearts-of-stone",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "leader",
+        "agile",
+        "hearts-of-stone"
+      ],
+      "imageId": "aeef3274-dd4a-46e1-99d1-d590afd960a8",
+      "preselected": false
+    },
+    {
+      "id": "5220ad2f-31a9-482d-9ac6-2a9f995dce29",
+      "slug": "francesca-findabair-pureblood-elf",
+      "faction": "scoiatael",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "7bc30734-18f4-475d-874f-291069f86ba5",
+      "preselected": true
+    },
+    {
+      "id": "6cfa54bf-a02a-4d4e-b081-c8ed42e24e1a",
+      "slug": "francesca-findabair-queen-of-dol-blathanna",
+      "faction": "scoiatael",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "acfd030e-bdce-4507-96b0-3573dc1536a8",
+      "preselected": false
+    },
+    {
+      "id": "36098ca4-ce2d-4f1a-b73c-bed97e11d922",
+      "slug": "francesca-findabair-the-beautiful",
+      "faction": "scoiatael",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "commanders_horn"
+      ],
+      "tags": [
+        "leader",
+        "commanders_horn"
+      ],
+      "imageId": "c12f727e-11c3-4816-95d8-c176f0bfe4dc",
+      "preselected": false
+    },
+    {
+      "id": "5ae5bc1b-8a9c-44c1-9fa5-a0402b826ead",
+      "slug": "eithne",
+      "faction": "scoiatael",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "9dec3c39-59dc-4637-b4bb-6ad83e74e080",
+      "preselected": false
+    },
+    {
+      "id": "bf81c6a0-cfb7-46f0-8fb2-e0354800df9f",
+      "slug": "iorveth",
+      "faction": "scoiatael",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "27996f44-421e-44f9-904b-362726b4f165",
+      "preselected": false
+    },
+    {
+      "id": "637acb5b-b4b6-47c3-9010-2323402581fa",
+      "slug": "isengrim-faoiltiarna",
+      "faction": "scoiatael",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero",
+        "morale_boost"
+      ],
+      "tags": [
+        "hero",
+        "morale_boost"
+      ],
+      "imageId": "1d0dcee4-f2ab-4626-9d6c-d49b65096a1b",
+      "preselected": false
+    },
+    {
+      "id": "d16dfb11-1872-461c-8e78-368d0e85c906",
+      "slug": "saesenthessis",
+      "faction": "scoiatael",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "e867a71c-cd4b-4647-af95-276689fafbfe",
+      "preselected": false
+    },
+    {
+      "id": "df89a80a-4692-4d9a-a14b-a5ba2c81763c",
+      "slug": "barclay-els",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "20a208d3-7c3a-4259-8925-b501146563b3",
+      "preselected": false
+    },
+    {
+      "id": "1798374f-f36c-48a4-a71f-5a032993aaf3",
+      "slug": "ciaran-aep-easnillien",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "03ebf38f-915f-4441-9dbc-c9886add10c2",
+      "preselected": false
+    },
+    {
+      "id": "b1e19a83-9939-4a73-a384-86723b625eae",
+      "slug": "dennis-cranmer",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "8b3b4a95-889c-451c-aae1-1aa98eae0398",
+      "preselected": false
+    },
+    {
+      "id": "bb89e462-156f-426a-9adc-8e3f29fb9ff8",
+      "slug": "dol-blathanna-archer",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "0b4b9525-7459-4b2d-ae7f-0d61a30410f9",
+      "preselected": false
+    },
+    {
+      "id": "233e2e3b-6dd8-4309-bb57-3df951f6f768",
+      "slug": "dol-blathanna-scout",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "809aec0d-b474-40e4-8964-ab7353656b48",
+      "preselected": false
+    },
+    {
+      "id": "9a5f8748-95e4-41d3-b08a-d950ca6b42d2",
+      "slug": "dol-blathanna-scout",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "f831a539-63c5-47a5-8bc7-4dd9541a719b",
+      "preselected": false
+    },
+    {
+      "id": "ad4662d3-e5ea-478b-a39e-dfb8af8d0214",
+      "slug": "dol-blathanna-scout",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "82a96e6f-2202-4a5f-b107-83e235aa8a6b",
+      "preselected": false
+    },
+    {
+      "id": "bce41609-be8d-4bc9-8c99-2e2d84524bbb",
+      "slug": "dwarven-skirmisher",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "0cde1f86-1c01-4519-9a47-cd8db92789c5",
+      "preselected": false
+    },
+    {
+      "id": "e56fbe4c-8410-43a4-976b-9c9bf18fa56d",
+      "slug": "dwarven-skirmisher",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "e311797d-ac87-4805-acd6-0ca4bd30c04e",
+      "preselected": false
+    },
+    {
+      "id": "379e983b-e99b-4525-82bd-2d19f26cf97f",
+      "slug": "dwarven-skirmisher",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "66f07031-2e44-4d3e-80fc-6c0d0f41ec5d",
+      "preselected": false
+    },
+    {
+      "id": "70e82f0f-c70e-4bf0-942f-6fc49f0b77a0",
+      "slug": "elven-skirmisher",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "8ca7e2ff-19a5-4c70-870c-90aa17c3a18e",
+      "preselected": false
+    },
+    {
+      "id": "59e50e35-3476-4c4b-8243-62e1d929c115",
+      "slug": "elven-skirmisher",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "26ffeb20-59c4-4e45-9160-71afe501c436",
+      "preselected": false
+    },
+    {
+      "id": "f770622d-da7d-4cd9-abf3-4b7a42562569",
+      "slug": "elven-skirmisher",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "a1f35411-32a1-4012-91ce-b5235c189636",
+      "preselected": false
+    },
+    {
+      "id": "da647788-c7b5-418a-8967-c9f254e223cd",
+      "slug": "filavandrel-aen-fidhail",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "e9e3e903-7592-4d60-963a-1484dd852eb7",
+      "preselected": false
+    },
+    {
+      "id": "208e0087-0ca1-4b03-81c5-bf74f885cb9a",
+      "slug": "havekar-healer",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 0,
+      "row": "ranged",
+      "abilities": [
+        "medic"
+      ],
+      "tags": [
+        "unit",
+        "medic"
+      ],
+      "imageId": "01960d40-93bd-4e37-aa1c-9bd172e02ef8",
+      "preselected": false
+    },
+    {
+      "id": "beae4adb-03fb-4b7c-97a8-e3dde60a02a4",
+      "slug": "havekar-healer",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 0,
+      "row": "ranged",
+      "abilities": [
+        "medic"
+      ],
+      "tags": [
+        "unit",
+        "medic"
+      ],
+      "imageId": "f970b725-5dcd-4363-aa18-dea45559704a",
+      "preselected": false
+    },
+    {
+      "id": "b26fd312-e8cb-4ff1-8979-cdac460db298",
+      "slug": "havekar-healer",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 0,
+      "row": "ranged",
+      "abilities": [
+        "medic"
+      ],
+      "tags": [
+        "unit",
+        "medic"
+      ],
+      "imageId": "20530ae2-7525-45ed-a7a1-d235ddcb82d1",
+      "preselected": false
+    },
+    {
+      "id": "cec75c2d-6500-4a3f-8265-0892380016da",
+      "slug": "havekar-smuggler",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "26a9e58e-4ea3-4ad3-b72c-61ef7b534cbb",
+      "preselected": false
+    },
+    {
+      "id": "a547a603-d4c1-4dfa-8651-57c2f273bd5b",
+      "slug": "havekar-smuggler",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "9e6aa90d-d251-46b3-909e-b6bc8a9fb124",
+      "preselected": false
+    },
+    {
+      "id": "e5426e67-9400-4e79-923c-896872783111",
+      "slug": "havekar-smuggler",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "304191b8-ba1c-4c79-b348-14cc88dd0b71",
+      "preselected": false
+    },
+    {
+      "id": "5e61c2b2-3496-47ce-893d-2d5443342edb",
+      "slug": "ida-emean-aep-sivney",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "3f5af997-30a2-4a50-a48f-afc63b340094",
+      "preselected": false
+    },
+    {
+      "id": "acc7ee7f-0530-409c-a5df-0489848b26bd",
+      "slug": "mahakaman-defender",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "009e5cdd-b0c9-4723-9d7b-a5a695515aba",
+      "preselected": false
+    },
+    {
+      "id": "79fcb4f5-ffe6-4e61-b7e5-5462342791f3",
+      "slug": "mahakaman-defender",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "81198195-ced1-4084-8dcb-b9d737b204a7",
+      "preselected": false
+    },
+    {
+      "id": "2242469c-f8e0-48b0-8793-5120c8e01dfa",
+      "slug": "mahakaman-defender",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "c0f82636-e308-4a14-a12e-3b00e9e72b4f",
+      "preselected": false
+    },
+    {
+      "id": "33c7f48c-1c43-41fc-bc78-16bcd9526e36",
+      "slug": "mahakaman-defender",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "2ea6a141-f53e-4dc9-93f7-af842731abd7",
+      "preselected": false
+    },
+    {
+      "id": "4a6f476d-81b7-4775-83e6-a2f9d644490f",
+      "slug": "mahakaman-defender",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "61dcaf6e-91bd-4971-be7d-846721812679",
+      "preselected": false
+    },
+    {
+      "id": "e2b0ae44-a753-4098-ba41-8f9e5813113a",
+      "slug": "milva",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [
+        "morale_boost"
+      ],
+      "tags": [
+        "unit",
+        "morale_boost"
+      ],
+      "imageId": "204e5664-7573-4331-b1bf-a02e85bec91c",
+      "preselected": false
+    },
+    {
+      "id": "8f729f1e-07de-47e0-985c-c51043d1fae4",
+      "slug": "riordain",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "9f50b81f-9cf6-4e35-b024-548b30c77ee7",
+      "preselected": false
+    },
+    {
+      "id": "34bc89b0-5f70-4b4e-b291-d173b1052547",
+      "slug": "schirru",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "hearts-of-stone",
+      "strength": 8,
+      "row": "siege",
+      "abilities": [
+        "scorch"
+      ],
+      "tags": [
+        "unit",
+        "scorch",
+        "hearts-of-stone"
+      ],
+      "imageId": "10d2a765-f1b8-49e4-88bf-133f32fd1922",
+      "preselected": false
+    },
+    {
+      "id": "78db0138-e053-41b3-9517-c8ced336b25c",
+      "slug": "toruviel",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "6218495b-bbb7-4650-b615-994f87fea2af",
+      "preselected": false
+    },
+    {
+      "id": "4471ad5f-e56e-4623-bcef-ada2893c513a",
+      "slug": "vrihedd-brigade-recruit",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "1625fe56-d250-40aa-996f-aa4d0c3a6bfd",
+      "preselected": false
+    },
+    {
+      "id": "313f379c-0532-4ff9-afca-56e4848daa43",
+      "slug": "vrihedd-brigade-veteran",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "0fb95a46-c499-4492-ae51-59e38c636f0d",
+      "preselected": false
+    },
+    {
+      "id": "ec5547af-5c10-4941-bc3f-a4868006aea6",
+      "slug": "vrihedd-brigade-veteran",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "5fc6e7ae-9f56-4ac3-9733-952d95042b13",
+      "preselected": false
+    },
+    {
+      "id": "2ca0ddf1-ec30-42a6-bb03-6de3191dfc92",
+      "slug": "yaevinn",
+      "faction": "scoiatael",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "6b912b90-cf7c-4e03-81c5-c20c834145bb",
+      "preselected": false
+    },
+    {
+      "id": "8ecd2551-25d8-4a62-a11a-f6789ce6d123",
+      "slug": "eredin-breacc-glas-the-treacherous",
+      "faction": "monsters",
+      "type": "leader",
+      "expansion": "hearts-of-stone",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "spy"
+      ],
+      "tags": [
+        "leader",
+        "spy",
+        "hearts-of-stone"
+      ],
+      "imageId": "512834d9-c784-4fb3-a8a9-dd74eb9f1ae3",
+      "preselected": false
+    },
+    {
+      "id": "03f6e92e-6af7-42ff-a57b-53c3b1513da4",
+      "slug": "eredin-bringer-of-death",
+      "faction": "monsters",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "33458ccf-c012-4baf-8f10-c30bd42dd7b4",
+      "preselected": false
+    },
+    {
+      "id": "81e504b7-38d4-41a8-8704-8b246ab78bba",
+      "slug": "eredin-commander-of-the-red-riders",
+      "faction": "monsters",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "commanders_horn"
+      ],
+      "tags": [
+        "leader",
+        "commanders_horn"
+      ],
+      "imageId": "ab1025d7-63b0-429a-8065-3d7c9e2cebbc",
+      "preselected": false
+    },
+    {
+      "id": "54f4fe03-9627-4ef3-9d7a-612ba7a3ebcf",
+      "slug": "eredin-destroyer-of-worlds",
+      "faction": "monsters",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "c79395b8-a25e-4b94-bd16-415fc450d6bd",
+      "preselected": false
+    },
+    {
+      "id": "a1e043bd-ba07-45a6-9958-525ff9ee68d6",
+      "slug": "eredin-king-of-the-wild-hunt",
+      "faction": "monsters",
+      "type": "leader",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader"
+      ],
+      "imageId": "881356dd-af06-44e8-9f2a-c4437d447e0e",
+      "preselected": true
+    },
+    {
+      "id": "05ac3710-5337-4f4a-9c26-e6f2db9d44b2",
+      "slug": "draug",
+      "faction": "monsters",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "b6c58b17-d87c-46f5-85c9-54f04465d8bd",
+      "preselected": false
+    },
+    {
+      "id": "861b376a-8025-47d3-b65e-b5c1199b986f",
+      "slug": "imlerith",
+      "faction": "monsters",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "8a2ef939-94db-4b7d-a9c7-f9b07d981fbb",
+      "preselected": false
+    },
+    {
+      "id": "96903648-9ce9-4436-880c-b84be0830815",
+      "slug": "kayran",
+      "faction": "monsters",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 8,
+      "row": "agile",
+      "abilities": [
+        "hero",
+        "agile"
+      ],
+      "tags": [
+        "hero",
+        "agile"
+      ],
+      "imageId": "ca7143b9-c8a7-42f4-a724-d7f2e6d7da5a",
+      "preselected": false
+    },
+    {
+      "id": "6c5f7030-0103-4297-92ab-467e09b1c4f2",
+      "slug": "leshen",
+      "faction": "monsters",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "6d3827d8-2369-47c8-ae12-fe0db47846d5",
+      "preselected": false
+    },
+    {
+      "id": "2cd28cb7-0826-4358-84d9-c126d120f886",
+      "slug": "arachas",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "c58414ea-2820-4088-ae40-0730d22583a1",
+      "preselected": false
+    },
+    {
+      "id": "e0ed08df-b0e5-47e0-b78a-576d53daca4f",
+      "slug": "arachas",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "a2c3bd8e-7bbb-4b83-90ea-411e65f31ff3",
+      "preselected": false
+    },
+    {
+      "id": "16deb5db-1e70-4881-bc3e-7c972c9565fd",
+      "slug": "arachas",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "dfc56d9b-ccab-4b48-b09d-5cc20ef673da",
+      "preselected": false
+    },
+    {
+      "id": "c62f7a1b-e951-4cf7-9a8b-aeb55a1cc72a",
+      "slug": "arachas-behemoth",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "ee7475b5-d5ae-4f10-99df-00f66134940d",
+      "preselected": false
+    },
+    {
+      "id": "bdf4f607-648f-4119-ae9b-1002e209debf",
+      "slug": "botchling",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "ae97e6b5-45f3-41ea-aa65-9e9e3431794e",
+      "preselected": false
+    },
+    {
+      "id": "fda766cc-e77f-471c-b256-6195ec367f3e",
+      "slug": "celaeno-harpy",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "a36df40f-444c-4d78-9dc1-94b7ff497e04",
+      "preselected": false
+    },
+    {
+      "id": "b922a862-84df-405e-8e39-9d83136e3afb",
+      "slug": "cockatrice",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "cb23846b-9310-4f8f-bb06-60f1ae0e45e9",
+      "preselected": false
+    },
+    {
+      "id": "b2451175-080c-433a-a5df-a2b84f685db8",
+      "slug": "crone-brewess",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "ca691c01-2d2c-40fc-9070-43c9e297d8c5",
+      "preselected": false
+    },
+    {
+      "id": "27e887d0-4dcc-4d3f-a4f8-a4faf4201a54",
+      "slug": "crone-weavess",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "b4adfe52-3157-4fae-819f-f8dd6ad7f478",
+      "preselected": false
+    },
+    {
+      "id": "b880a61c-ec5d-4568-a285-6fad8f61d3e3",
+      "slug": "crone-whispess",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "8380bbc2-9afe-41fe-a2f7-5902924a4eb3",
+      "preselected": false
+    },
+    {
+      "id": "feaf365e-e402-43b8-98be-638e06794e32",
+      "slug": "earth-elemental",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "149f9537-7f18-45f6-bd72-6a6866ba7ad1",
+      "preselected": false
+    },
+    {
+      "id": "683f8cab-047c-4056-9087-19edd3433c36",
+      "slug": "endrega",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "9f68240c-4f15-4066-a9ba-3379e18cb92e",
+      "preselected": false
+    },
+    {
+      "id": "15e590b6-46c3-4b44-837a-decf5612012b",
+      "slug": "fiend",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "fa50d631-17bc-43c5-9d48-565e6785db51",
+      "preselected": false
+    },
+    {
+      "id": "682b085e-6e2a-43fc-96b9-2c619814b63a",
+      "slug": "fire-elemental",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "a56dace0-9019-49c0-843c-dd7c0270f7fa",
+      "preselected": false
+    },
+    {
+      "id": "c50cc3dc-3be2-44b5-9c9e-7e5cfba406fb",
+      "slug": "foglet",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "a049c778-697e-4d90-9483-9e6ca76070be",
+      "preselected": false
+    },
+    {
+      "id": "fdca714f-6a78-42c9-b3c4-8917bed1387c",
+      "slug": "forktail",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "a4141ab1-8711-44b5-9c41-6f6bf707f7f6",
+      "preselected": false
+    },
+    {
+      "id": "d8f1e818-91ff-4a74-99ee-4d33c8d027de",
+      "slug": "frightener",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "f4ab73c8-7d44-41e5-b9c2-6c141346cdb1",
+      "preselected": false
+    },
+    {
+      "id": "46694c37-6ab3-4ebc-a666-f1818acc817c",
+      "slug": "gargoyle",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "e89e110f-d13e-49c3-8bea-b0ddcdfefa1c",
+      "preselected": false
+    },
+    {
+      "id": "dfa0f899-56e3-4673-af3c-042297bb90d6",
+      "slug": "ghoul",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "975724be-6558-4cd7-bee9-031f65294180",
+      "preselected": false
+    },
+    {
+      "id": "24acd7d3-6c95-429d-9341-b4c5c99da66a",
+      "slug": "ghoul",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "c697e0b5-5427-4a93-bdd1-88f0fefead45",
+      "preselected": false
+    },
+    {
+      "id": "d21a26ff-e78a-4ee0-91cb-315332ad0215",
+      "slug": "ghoul",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 1,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "0c5449c7-6c39-42f2-9236-ba180f2b59cf",
+      "preselected": false
+    },
+    {
+      "id": "f23d64f8-019f-4f63-802e-9999628cba3f",
+      "slug": "grave-hag",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "a1d52c99-16a5-4f83-8811-41a09c91d674",
+      "preselected": false
+    },
+    {
+      "id": "03f39015-eaa1-49f1-911e-16e6fe44b7e7",
+      "slug": "griffin",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "26462732-81cd-43b2-8c13-bfb4df4b4561",
+      "preselected": false
+    },
+    {
+      "id": "764834a1-d892-4131-9bdf-792e43691503",
+      "slug": "harpy",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "agile",
+      "abilities": [
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "agile"
+      ],
+      "imageId": "b1b02c74-c293-4785-9927-1c68ebd5e47b",
+      "preselected": false
+    },
+    {
+      "id": "844d38f7-4003-43bf-a4ba-52222e77113d",
+      "slug": "ice-giant",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "bcf62d8d-ba28-4968-9a37-11ed8253398f",
+      "preselected": false
+    },
+    {
+      "id": "93e49375-fbd6-4fc7-bfe5-af61ec994612",
+      "slug": "nekker",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "3a8f3742-90c2-496a-bb1b-3240b33e77b2",
+      "preselected": false
+    },
+    {
+      "id": "4a0e06f0-aff2-4566-bec9-cc975ac0f989",
+      "slug": "nekker",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "8713749e-914a-4caa-909f-be2b0b1023c7",
+      "preselected": false
+    },
+    {
+      "id": "56f75f6b-ceb7-4a2a-9be0-8535d42139bf",
+      "slug": "nekker",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "fbf10092-e250-4a22-921c-8c692c2f690f",
+      "preselected": false
+    },
+    {
+      "id": "a72718c0-5d1a-496c-9363-29bb6d49f3f6",
+      "slug": "plague-maiden",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "58d9de63-89e1-46fa-b41d-0aeef4e26bc2",
+      "preselected": false
+    },
+    {
+      "id": "07ef1581-d1f7-470e-8d91-0255618e0b96",
+      "slug": "toad",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "hearts-of-stone",
+      "strength": 7,
+      "row": "ranged",
+      "abilities": [
+        "scorch"
+      ],
+      "tags": [
+        "unit",
+        "scorch",
+        "hearts-of-stone"
+      ],
+      "imageId": "ed64bdaa-a6df-46a6-af62-2250757bd4d2",
+      "preselected": false
+    },
+    {
+      "id": "695219d3-fe52-4f60-afcb-49b9638cd13a",
+      "slug": "vampire-bruxa",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "85ad9784-130b-4093-9bdc-80cb17afc0b7",
+      "preselected": false
+    },
+    {
+      "id": "ff0996da-ecf4-466c-9754-9ef3b9009db4",
+      "slug": "vampire-ekimmara",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "aa3b5296-f2f4-42b5-a497-623c7e032b8d",
+      "preselected": false
+    },
+    {
+      "id": "a560ce32-dce9-4f4b-9388-354177af7a0c",
+      "slug": "vampire-fleder",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "af9c88b7-6808-49ee-a34e-f9f6fc0e5072",
+      "preselected": false
+    },
+    {
+      "id": "7924b756-e1a4-4cf4-8f3c-ab26abd57b0d",
+      "slug": "vampire-garkain",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "be344b3b-c8f5-4693-b7f0-71852f8fb6a7",
+      "preselected": false
+    },
+    {
+      "id": "93e6f5f3-71cf-47b4-95bd-155b08029573",
+      "slug": "vampire-katakan",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster"
+      ],
+      "imageId": "e4e42403-8328-4f22-9375-61587316bbde",
+      "preselected": false
+    },
+    {
+      "id": "b2a62e93-4ee3-4a7c-a56f-b8c4d2ddfa58",
+      "slug": "werewolf",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "008b1c84-638d-4c57-b523-095222da5a48",
+      "preselected": false
+    },
+    {
+      "id": "46c51ac6-63ad-43e1-bf1c-6d28d61c5896",
+      "slug": "wyvern",
+      "faction": "monsters",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "0f506daa-76cc-4e9e-bc55-fdd505311681",
+      "preselected": false
+    },
+    {
+      "id": "97052c0f-ce49-4863-af5b-e015b583d8ad",
+      "slug": "crach-an-craite",
+      "faction": "skellige",
+      "type": "leader",
+      "expansion": "blood-and-wine",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader",
+        "blood-and-wine"
+      ],
+      "imageId": "30f0f974-f09b-4b39-81d1-c40289e30da8",
+      "preselected": true
+    },
+    {
+      "id": "8430232f-1a46-4690-880f-04ff0bf1afa4",
+      "slug": "king-bran",
+      "faction": "skellige",
+      "type": "leader",
+      "expansion": "blood-and-wine",
+      "strength": null,
+      "row": null,
+      "abilities": [],
+      "tags": [
+        "leader",
+        "blood-and-wine"
+      ],
+      "imageId": "f2d9dc50-0b84-4c18-abf7-f8a22be7b067",
+      "preselected": false
+    },
+    {
+      "id": "7270e18d-1d9b-4b7b-9acf-1b1cd3f3af54",
+      "slug": "cerys",
+      "faction": "skellige",
+      "type": "hero",
+      "expansion": "blood-and-wine",
+      "strength": 10,
+      "row": "close",
+      "abilities": [
+        "hero",
+        "muster"
+      ],
+      "tags": [
+        "hero",
+        "muster",
+        "blood-and-wine"
+      ],
+      "imageId": "84925bb7-2b9c-485d-b66a-ef53995cbeb7",
+      "preselected": false
+    },
+    {
+      "id": "4ca5ccdf-fa08-42ee-b357-2e3233ba4a94",
+      "slug": "ermion",
+      "faction": "skellige",
+      "type": "hero",
+      "expansion": "blood-and-wine",
+      "strength": 8,
+      "row": "ranged",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero",
+        "blood-and-wine"
+      ],
+      "imageId": "2254c651-399f-4d6e-9bf7-f950630dc74c",
+      "preselected": false
+    },
+    {
+      "id": "698975d2-e10d-43f2-8b5e-6ee179cbe20c",
+      "slug": "hjalmar",
+      "faction": "skellige",
+      "type": "hero",
+      "expansion": "blood-and-wine",
+      "strength": 10,
+      "row": "ranged",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero",
+        "blood-and-wine"
+      ],
+      "imageId": "04437996-c246-4985-879a-87caa3190637",
+      "preselected": true
+    },
+    {
+      "id": "bff7e6ea-908d-4f7e-91b8-5d0b7825ac2e",
+      "slug": "kambi-hemdall",
+      "faction": "skellige",
+      "type": "hero",
+      "expansion": "blood-and-wine",
+      "strength": 0,
+      "row": "close",
+      "abilities": [
+        "hero",
+        "summon_avenger"
+      ],
+      "tags": [
+        "hero",
+        "summon_avenger",
+        "blood-and-wine"
+      ],
+      "imageId": "aac5a48c-d015-4151-9f87-9a92b4cd5368",
+      "preselected": false
+    },
+    {
+      "id": "548979f4-b895-4b46-bb1b-98d24cf23fc7",
+      "slug": "berserker-vildkaarl",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "berserker"
+      ],
+      "tags": [
+        "unit",
+        "berserker",
+        "blood-and-wine"
+      ],
+      "imageId": "e738303e-e6e3-46d1-9535-d0eb5656604e",
+      "preselected": true
+    },
+    {
+      "id": "41037db3-e225-4670-a310-6adb323a9532",
+      "slug": "birna-bran",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 2,
+      "row": "close",
+      "abilities": [
+        "medic"
+      ],
+      "tags": [
+        "unit",
+        "medic",
+        "blood-and-wine"
+      ],
+      "imageId": "ba89fec7-31d5-4dde-a148-368461f818a4",
+      "preselected": true
+    },
+    {
+      "id": "a4808d3d-280b-42f0-9c15-7e909103a80a",
+      "slug": "blueboy-lugos",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "b226d1e9-cdc1-4805-ba5e-de096e836ca0",
+      "preselected": true
+    },
+    {
+      "id": "635c9188-42cf-43de-9044-ef31ff4860ed",
+      "slug": "clan-an-craite-warrior",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "d1f0d88b-226c-49d6-bd67-64f52bfe6a0e",
+      "preselected": true
+    },
+    {
+      "id": "d3fdad88-85cf-40a8-9ec6-29c36258c12b",
+      "slug": "clan-an-craite-warrior",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "d1f0d88b-226c-49d6-bd67-64f52bfe6a0e",
+      "preselected": false
+    },
+    {
+      "id": "f5f09845-d2d3-4643-b63c-960973cd3502",
+      "slug": "clan-an-craite-warrior",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "d1f0d88b-226c-49d6-bd67-64f52bfe6a0e",
+      "preselected": false
+    },
+    {
+      "id": "123d3ebb-5e0e-4eac-8821-759c46967957",
+      "slug": "clan-brokvar-archer",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "b4a40705-f474-4a50-965e-c9f5899ecd14",
+      "preselected": false
+    },
+    {
+      "id": "922afb81-ebb7-4c6d-897f-99028fcf4b1c",
+      "slug": "clan-brokvar-archer",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "b4a40705-f474-4a50-965e-c9f5899ecd14",
+      "preselected": true
+    },
+    {
+      "id": "76628d80-9c6b-4e1f-9d3f-991cea8c77e6",
+      "slug": "clan-brokvar-archer",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "ranged",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "b4a40705-f474-4a50-965e-c9f5899ecd14",
+      "preselected": false
+    },
+    {
+      "id": "824ac590-98d9-4759-9453-7cb037cb7f76",
+      "slug": "clan-dimun-pirate",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "ranged",
+      "abilities": [
+        "scorch"
+      ],
+      "tags": [
+        "unit",
+        "scorch",
+        "blood-and-wine"
+      ],
+      "imageId": "9cc5e75f-98d8-4def-bd2d-76e6f5ca9539",
+      "preselected": false
+    },
+    {
+      "id": "bd34b57c-057e-4551-ac11-60e2a2c2b32a",
+      "slug": "clan-drummond-shield-maiden",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "4fefc627-5de8-4d6e-b8f4-a0ec8d2f642e",
+      "preselected": false
+    },
+    {
+      "id": "7f9f2600-c594-4b1d-94ba-fb380eff8e31",
+      "slug": "clan-drummond-shield-maiden",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "cf061215-d64d-4710-b7d3-5bc6981f8aa1",
+      "preselected": false
+    },
+    {
+      "id": "751e8242-b263-4444-9436-a8cdd2521148",
+      "slug": "clan-drummond-shield-maiden",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "dc275c9e-e285-4043-b45b-5da0f732a8d5",
+      "preselected": true
+    },
+    {
+      "id": "ddca9536-983a-46a1-8501-fce5129a4221",
+      "slug": "clan-heymaey-skald",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "c1f90e62-3bf8-46d6-a295-d4fe43d5588a",
+      "preselected": true
+    },
+    {
+      "id": "518d1255-3b08-482a-810a-160e45cdb7cb",
+      "slug": "clan-tordarroch-armorsmith",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "157ac593-91e9-41bf-916f-103c3fc8e951",
+      "preselected": true
+    },
+    {
+      "id": "8b2c40fc-d7f3-415d-9e93-5b38e5b6e756",
+      "slug": "donar-an-hindar",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "3a08da17-50fd-4711-a9a7-f3b83cb74708",
+      "preselected": true
+    },
+    {
+      "id": "06c57d00-1e59-4971-962e-a8f0bc65c9b1",
+      "slug": "draig-bon-dhu",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 2,
+      "row": "siege",
+      "abilities": [
+        "commanders_horn"
+      ],
+      "tags": [
+        "unit",
+        "commanders_horn",
+        "blood-and-wine"
+      ],
+      "imageId": "2fe6d8ae-9989-4210-b534-5ca7626b8d1a",
+      "preselected": false
+    },
+    {
+      "id": "e309e828-79a9-43ed-a6e5-4daf432bf826",
+      "slug": "holger-blackhand",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "siege",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "729d0b53-8661-4aa2-9583-11464c11394f",
+      "preselected": true
+    },
+    {
+      "id": "8c661494-6be6-412a-b6c1-3b3d88bf92d8",
+      "slug": "light-longship",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster",
+        "blood-and-wine"
+      ],
+      "imageId": "6c7cb65c-5080-4b8c-a41d-eb32a55210c8",
+      "preselected": true
+    },
+    {
+      "id": "e416aefc-287e-4215-91f5-3d4325396f48",
+      "slug": "light-longship",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster",
+        "blood-and-wine"
+      ],
+      "imageId": "6c7cb65c-5080-4b8c-a41d-eb32a55210c8",
+      "preselected": false
+    },
+    {
+      "id": "da34202d-cc1e-496e-8db2-da3453bd67e1",
+      "slug": "light-longship",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster",
+        "blood-and-wine"
+      ],
+      "imageId": "6c7cb65c-5080-4b8c-a41d-eb32a55210c8",
+      "preselected": false
+    },
+    {
+      "id": "a95df3e2-b953-49f2-8957-67cffb376729",
+      "slug": "madman-lugos",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "fa29a5e0-fad7-4646-bb86-30f89f0bf7aa",
+      "preselected": true
+    },
+    {
+      "id": "05cde6a8-90d1-4cbf-9579-0e2c9234800b",
+      "slug": "olaf",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 12,
+      "row": "agile",
+      "abilities": [
+        "morale_boost",
+        "agile"
+      ],
+      "tags": [
+        "unit",
+        "morale_boost",
+        "agile",
+        "blood-and-wine"
+      ],
+      "imageId": "fc05a023-61a4-4cb2-84f2-4fb414ab238a",
+      "preselected": false
+    },
+    {
+      "id": "ce3825d8-3924-4b33-8a22-84e393788380",
+      "slug": "svanrige",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "656b1c40-0c38-4d01-8acd-a73e208c8bac",
+      "preselected": true
+    },
+    {
+      "id": "03c60609-be84-481c-97b3-a27d6a3fd036",
+      "slug": "udalryk",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 4,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "blood-and-wine"
+      ],
+      "imageId": "8b5ea095-6da9-4a06-9f00-c333ca1e5109",
+      "preselected": true
+    },
+    {
+      "id": "4856ba53-5172-44c5-a800-ccd853744c67",
+      "slug": "war-longship",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "30e14fed-7ae1-4581-86c8-0d1a289f968c",
+      "preselected": false
+    },
+    {
+      "id": "f589beb1-8a75-4537-9101-446c62ad95fb",
+      "slug": "war-longship",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "30e14fed-7ae1-4581-86c8-0d1a289f968c",
+      "preselected": true
+    },
+    {
+      "id": "f56c6841-aff2-4b42-ad4d-e5e588a8f5c8",
+      "slug": "war-longship",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 6,
+      "row": "siege",
+      "abilities": [
+        "tight_bond"
+      ],
+      "tags": [
+        "unit",
+        "tight_bond",
+        "blood-and-wine"
+      ],
+      "imageId": "30e14fed-7ae1-4581-86c8-0d1a289f968c",
+      "preselected": false
+    },
+    {
+      "id": "42d2eae4-145a-4054-8e3c-ae3f828cc8c6",
+      "slug": "young-berserker-young-vildkaarl",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [
+        "berserker"
+      ],
+      "tags": [
+        "unit",
+        "berserker",
+        "blood-and-wine"
+      ],
+      "imageId": "27724c00-f39c-4b81-aa73-ca7e0d8d1368",
+      "preselected": false
+    },
+    {
+      "id": "bf89ae32-16f3-4657-b7bc-7bab8408ceb0",
+      "slug": "young-berserker-young-vildkaarl",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [
+        "berserker"
+      ],
+      "tags": [
+        "unit",
+        "berserker",
+        "blood-and-wine"
+      ],
+      "imageId": "27724c00-f39c-4b81-aa73-ca7e0d8d1368",
+      "preselected": false
+    },
+    {
+      "id": "0da59667-79ac-4a5e-8e5c-40a3d97ec00d",
+      "slug": "young-berserker-young-vildkaarl",
+      "faction": "skellige",
+      "type": "unit",
+      "expansion": "blood-and-wine",
+      "strength": 2,
+      "row": "ranged",
+      "abilities": [
+        "berserker"
+      ],
+      "tags": [
+        "unit",
+        "berserker",
+        "blood-and-wine"
+      ],
+      "imageId": "27724c00-f39c-4b81-aa73-ca7e0d8d1368",
+      "preselected": true
+    },
+    {
+      "id": "d41eec63-3f9d-4156-a045-b9aebae43cbd",
+      "slug": "mardroeme",
+      "faction": "skellige",
+      "type": "special",
+      "expansion": "blood-and-wine",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "mardroeme"
+      ],
+      "tags": [
+        "special",
+        "mardroeme",
+        "blood-and-wine"
+      ],
+      "imageId": "8485728f-9566-481e-a599-7f0bbb17542a",
+      "preselected": true
+    },
+    {
+      "id": "35f27b09-2ce3-4d81-bba0-6c142d608dd3",
+      "slug": "mardroeme",
+      "faction": "skellige",
+      "type": "special",
+      "expansion": "blood-and-wine",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "mardroeme"
+      ],
+      "tags": [
+        "special",
+        "mardroeme",
+        "blood-and-wine"
+      ],
+      "imageId": "8485728f-9566-481e-a599-7f0bbb17542a",
+      "preselected": false
+    },
+    {
+      "id": "82ca9c60-c8fa-47f7-8ecd-e124861efa97",
+      "slug": "mardroeme",
+      "faction": "skellige",
+      "type": "special",
+      "expansion": "blood-and-wine",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "mardroeme"
+      ],
+      "tags": [
+        "special",
+        "mardroeme",
+        "blood-and-wine"
+      ],
+      "imageId": "8485728f-9566-481e-a599-7f0bbb17542a",
+      "preselected": false
+    },
+    {
+      "id": "6ef8f46c-d640-4d64-9b54-d3a51d5b5719",
+      "slug": "cirilla-fiona-elen-riannon",
+      "faction": "neutral",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 15,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "d7666fc9-9075-464c-9ce3-29509dc1877f",
+      "preselected": false
+    },
+    {
+      "id": "c75db0f1-ccf5-49cb-859f-2a62d894c1e6",
+      "slug": "geralt-of-rivia",
+      "faction": "neutral",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 15,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "782b2e30-7483-4f9b-9a19-18cdd9712dff",
+      "preselected": false
+    },
+    {
+      "id": "e34935ce-d4cd-4f38-a097-7f30e4f3d051",
+      "slug": "mysterious-elf",
+      "faction": "neutral",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 0,
+      "row": "close",
+      "abilities": [
+        "hero",
+        "spy"
+      ],
+      "tags": [
+        "hero",
+        "spy"
+      ],
+      "imageId": "6c65aaac-92e5-43c8-9d1f-9314b08a52c1",
+      "preselected": false
+    },
+    {
+      "id": "32c9e258-6624-49fe-8007-5331c028be1c",
+      "slug": "triss-merigold",
+      "faction": "neutral",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 7,
+      "row": "close",
+      "abilities": [
+        "hero"
+      ],
+      "tags": [
+        "hero"
+      ],
+      "imageId": "0b3c2a74-bea5-4677-be96-0c15865a4933",
+      "preselected": false
+    },
+    {
+      "id": "819971dd-51fa-4381-8858-73f8a35d0d6f",
+      "slug": "yennefer-of-vengerberg",
+      "faction": "neutral",
+      "type": "hero",
+      "expansion": "base",
+      "strength": 7,
+      "row": "ranged",
+      "abilities": [
+        "hero",
+        "medic"
+      ],
+      "tags": [
+        "hero",
+        "medic"
+      ],
+      "imageId": "5bdda756-ed9c-4de0-a093-60e2457d5fcb",
+      "preselected": false
+    },
+    {
+      "id": "86c0083e-5c8a-4149-9324-9837c72c7672",
+      "slug": "cow-bovine-defense-force",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "hearts-of-stone",
+      "strength": 1,
+      "row": "close",
+      "abilities": [
+        "summon_avenger"
+      ],
+      "tags": [
+        "unit",
+        "summon_avenger",
+        "hearts-of-stone"
+      ],
+      "imageId": "65888ec6-3b30-457a-ac75-1a784969ae98",
+      "preselected": false
+    },
+    {
+      "id": "731c2ccb-469a-487a-9e19-1da2e454ec91",
+      "slug": "dandelion",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 2,
+      "row": "close",
+      "abilities": [
+        "commanders_horn"
+      ],
+      "tags": [
+        "unit",
+        "commanders_horn"
+      ],
+      "imageId": "ffef0e6c-5492-4f8b-a267-a3146a855869",
+      "preselected": false
+    },
+    {
+      "id": "07f1d85d-6e81-4ebb-b93b-d29c63d2e280",
+      "slug": "emiel-regis-rohellec-terzieff",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "b3179c20-b89e-4aa2-982d-7b9dfb8abd4b",
+      "preselected": false
+    },
+    {
+      "id": "8d1aaea2-ba72-4b72-95a7-f605e4d712ba",
+      "slug": "gaunter-o-dimm",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "hearts-of-stone",
+      "strength": 2,
+      "row": "siege",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster",
+        "hearts-of-stone"
+      ],
+      "imageId": "7f49e232-cb9d-4600-b283-281d1bb3769a",
+      "preselected": false
+    },
+    {
+      "id": "9d43dbb9-ddd2-49a7-9631-d0a49030addc",
+      "slug": "gaunter-o-dimm-darkness",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "hearts-of-stone",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster",
+        "hearts-of-stone"
+      ],
+      "imageId": "56851a52-c54b-46be-9e4d-09b91a57e84a",
+      "preselected": false
+    },
+    {
+      "id": "cb7ae013-8ce3-4a8c-b2c2-5b8aaacf9875",
+      "slug": "gaunter-o-dimm-darkness",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "hearts-of-stone",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster",
+        "hearts-of-stone"
+      ],
+      "imageId": "56851a52-c54b-46be-9e4d-09b91a57e84a",
+      "preselected": false
+    },
+    {
+      "id": "19d86101-b25d-4ce0-a925-bcee2adf1f4b",
+      "slug": "gaunter-o-dimm-darkness",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "hearts-of-stone",
+      "strength": 4,
+      "row": "ranged",
+      "abilities": [
+        "muster"
+      ],
+      "tags": [
+        "unit",
+        "muster",
+        "hearts-of-stone"
+      ],
+      "imageId": "56851a52-c54b-46be-9e4d-09b91a57e84a",
+      "preselected": false
+    },
+    {
+      "id": "51c48194-715b-44a3-b204-d3411f9eeaaf",
+      "slug": "olgierd-von-everec",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "hearts-of-stone",
+      "strength": 6,
+      "row": "agile",
+      "abilities": [
+        "agile",
+        "morale_boost"
+      ],
+      "tags": [
+        "unit",
+        "agile",
+        "morale_boost",
+        "hearts-of-stone"
+      ],
+      "imageId": "70b81287-60ed-408a-a866-b7bc6ec99c53",
+      "preselected": false
+    },
+    {
+      "id": "f3b216f7-268d-4048-b0db-abd0f11f26c0",
+      "slug": "roach",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 3,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit",
+        "gog-reward"
+      ],
+      "imageId": "aefaa7d0-8c9d-4d0d-bc48-2859b6ad3fc5",
+      "preselected": false
+    },
+    {
+      "id": "97bf7b39-b2a4-4c20-963f-df483e22f5ea",
+      "slug": "vesemir",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 6,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "ed421d1f-a7ab-4e3a-9cd3-884c7fbe4d73",
+      "preselected": false
+    },
+    {
+      "id": "282e99b1-5a43-4e9b-9af3-db16e0a394c8",
+      "slug": "villentretenmerth",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 7,
+      "row": "close",
+      "abilities": [
+        "scorch"
+      ],
+      "tags": [
+        "unit",
+        "scorch"
+      ],
+      "imageId": "dcfa82d9-4f38-4f63-86cf-cff5e67ffb37",
+      "preselected": false
+    },
+    {
+      "id": "c9c29894-51ab-446d-b9da-2181209373fd",
+      "slug": "zoltan-chivay",
+      "faction": "neutral",
+      "type": "unit",
+      "expansion": "base",
+      "strength": 5,
+      "row": "close",
+      "abilities": [],
+      "tags": [
+        "unit"
+      ],
+      "imageId": "8fed1a0c-a015-4361-8d4d-a57c5e66c57e",
+      "preselected": false
+    },
+    {
+      "id": "6765a76d-0112-4127-9755-ba573866733a",
+      "slug": "commander-s-horn",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "commanders_horn"
+      ],
+      "tags": [
+        "special",
+        "commanders_horn"
+      ],
+      "imageId": "56aafd0d-90b1-477a-8459-27277402fbd0",
+      "preselected": false
+    },
+    {
+      "id": "2d86ecf1-72c2-41c1-9d83-209854e57449",
+      "slug": "commander-s-horn",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "commanders_horn"
+      ],
+      "tags": [
+        "special",
+        "commanders_horn"
+      ],
+      "imageId": "56aafd0d-90b1-477a-8459-27277402fbd0",
+      "preselected": false
+    },
+    {
+      "id": "e2fcec4d-f287-4be1-ab2c-8bf23b5fa811",
+      "slug": "commander-s-horn",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "commanders_horn"
+      ],
+      "tags": [
+        "special",
+        "commanders_horn"
+      ],
+      "imageId": "56aafd0d-90b1-477a-8459-27277402fbd0",
+      "preselected": false
+    },
+    {
+      "id": "e33d6ed0-5f8d-4ee6-b795-515a81917933",
+      "slug": "decoy",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "decoy"
+      ],
+      "tags": [
+        "special",
+        "decoy"
+      ],
+      "imageId": "0525cd16-8d32-4e01-b626-ed54c945eeb8",
+      "preselected": false
+    },
+    {
+      "id": "b48576da-e3a0-415c-8113-402597278490",
+      "slug": "decoy",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "decoy"
+      ],
+      "tags": [
+        "special",
+        "decoy"
+      ],
+      "imageId": "0525cd16-8d32-4e01-b626-ed54c945eeb8",
+      "preselected": false
+    },
+    {
+      "id": "13fad1ba-f823-4b49-9594-af3dc04103e0",
+      "slug": "decoy",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "decoy"
+      ],
+      "tags": [
+        "special",
+        "decoy"
+      ],
+      "imageId": "0525cd16-8d32-4e01-b626-ed54c945eeb8",
+      "preselected": false
+    },
+    {
+      "id": "8cef86ce-33ac-455d-9eda-78dea8a0890e",
+      "slug": "scorch",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "scorch"
+      ],
+      "tags": [
+        "special",
+        "scorch"
+      ],
+      "imageId": "74cb7b6c-90a8-4fd4-a661-b4f3354bc5c2",
+      "preselected": false
+    },
+    {
+      "id": "54bf7f8f-8668-4e7b-ada1-34f075a83724",
+      "slug": "scorch",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "scorch"
+      ],
+      "tags": [
+        "special",
+        "scorch"
+      ],
+      "imageId": "74cb7b6c-90a8-4fd4-a661-b4f3354bc5c2",
+      "preselected": false
+    },
+    {
+      "id": "b8db84e5-e650-4737-82dd-7a4de6c9633e",
+      "slug": "scorch",
+      "faction": "neutral",
+      "type": "special",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "scorch"
+      ],
+      "tags": [
+        "special",
+        "scorch"
+      ],
+      "imageId": "74cb7b6c-90a8-4fd4-a661-b4f3354bc5c2",
+      "preselected": false
+    },
+    {
+      "id": "777d968a-4949-41b8-a11e-02a8a4387e52",
+      "slug": "biting-frost",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_frost"
+      ],
+      "tags": [
+        "weather",
+        "weather_frost"
+      ],
+      "imageId": "39c392d7-2069-4e2d-a2e6-c0d445709e5d",
+      "preselected": false
+    },
+    {
+      "id": "1993b144-7915-4036-becd-6e8fd1a3aebb",
+      "slug": "biting-frost",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_frost"
+      ],
+      "tags": [
+        "weather",
+        "weather_frost"
+      ],
+      "imageId": "39c392d7-2069-4e2d-a2e6-c0d445709e5d",
+      "preselected": false
+    },
+    {
+      "id": "c596c9c4-983c-40a9-bc7c-1d6dd704f1b1",
+      "slug": "biting-frost",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_frost"
+      ],
+      "tags": [
+        "weather",
+        "weather_frost"
+      ],
+      "imageId": "39c392d7-2069-4e2d-a2e6-c0d445709e5d",
+      "preselected": true
+    },
+    {
+      "id": "0b59f874-5b44-4f74-b9b4-2c8152fc7b55",
+      "slug": "clear-weather",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "clear_weather"
+      ],
+      "tags": [
+        "weather",
+        "clear_weather"
+      ],
+      "imageId": "6e7f6111-c436-49d3-81c2-4386fa8fef97",
+      "preselected": false
+    },
+    {
+      "id": "c93e5116-25f0-4697-8444-e0194eb818aa",
+      "slug": "clear-weather",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "clear_weather"
+      ],
+      "tags": [
+        "weather",
+        "clear_weather"
+      ],
+      "imageId": "6e7f6111-c436-49d3-81c2-4386fa8fef97",
+      "preselected": true
+    },
+    {
+      "id": "5d1caecd-4a1d-4af1-8cb5-4183507d4625",
+      "slug": "impenetrable-fog",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_fog"
+      ],
+      "tags": [
+        "weather",
+        "weather_fog"
+      ],
+      "imageId": "df2775eb-9a72-41c7-8a2b-02e0ade1706d",
+      "preselected": false
+    },
+    {
+      "id": "d9c637f9-5b7e-479c-81d3-a755c76c05ad",
+      "slug": "impenetrable-fog",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_fog"
+      ],
+      "tags": [
+        "weather",
+        "weather_fog"
+      ],
+      "imageId": "df2775eb-9a72-41c7-8a2b-02e0ade1706d",
+      "preselected": false
+    },
+    {
+      "id": "b78d53ac-925c-4312-8252-6da154b692bc",
+      "slug": "impenetrable-fog",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_fog"
+      ],
+      "tags": [
+        "weather",
+        "weather_fog"
+      ],
+      "imageId": "df2775eb-9a72-41c7-8a2b-02e0ade1706d",
+      "preselected": true
+    },
+    {
+      "id": "1b48af02-8ec3-49a7-806d-a6d0c6d44752",
+      "slug": "skellige-storm",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "blood-and-wine",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_storm"
+      ],
+      "tags": [
+        "weather",
+        "weather_storm",
+        "blood-and-wine"
+      ],
+      "imageId": "934b7d6b-a629-4dbd-9453-a47c69bf0760",
+      "preselected": false
+    },
+    {
+      "id": "f3d27e45-554b-46b5-9287-e546e83cd618",
+      "slug": "skellige-storm",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "blood-and-wine",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_storm"
+      ],
+      "tags": [
+        "weather",
+        "weather_storm",
+        "blood-and-wine"
+      ],
+      "imageId": "934b7d6b-a629-4dbd-9453-a47c69bf0760",
+      "preselected": false
+    },
+    {
+      "id": "9f8e7cbb-69ea-49d6-b1a0-b218b1ce308d",
+      "slug": "skellige-storm",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "blood-and-wine",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_storm"
+      ],
+      "tags": [
+        "weather",
+        "weather_storm",
+        "blood-and-wine"
+      ],
+      "imageId": "934b7d6b-a629-4dbd-9453-a47c69bf0760",
+      "preselected": false
+    },
+    {
+      "id": "9fe1f19c-d822-4aea-9e99-46706272b49d",
+      "slug": "torrential-rain",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_rain"
+      ],
+      "tags": [
+        "weather",
+        "weather_rain"
+      ],
+      "imageId": "cb62242a-0ccc-4ec8-8888-02dfcf17e659",
+      "preselected": false
+    },
+    {
+      "id": "14a1c7d4-eec4-4e4a-b9ab-fac645054b1a",
+      "slug": "torrential-rain",
+      "faction": "neutral",
+      "type": "weather",
+      "expansion": "base",
+      "strength": null,
+      "row": null,
+      "abilities": [
+        "weather_rain"
+      ],
+      "tags": [
+        "weather",
+        "weather_rain"
+      ],
+      "imageId": "cb62242a-0ccc-4ec8-8888-02dfcf17e659",
+      "preselected": true
+    }
+  ]
+}
