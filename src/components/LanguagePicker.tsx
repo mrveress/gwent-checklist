@@ -7,6 +7,8 @@ interface LanguagePickerProps {
   availableLocales: string[];
   label: string;
   onChange: (locale: string) => void;
+  /** Hide the text label (e.g. modal toolbar). */
+  compact?: boolean;
 }
 
 function LocaleFlag({ locale }: { locale: string }) {
@@ -40,10 +42,15 @@ export function LanguagePicker({
   availableLocales,
   label,
   onChange,
+  compact = false,
 }: LanguagePickerProps) {
   return (
-    <div className="lang-picker" role="group" aria-label={label}>
-      <span className="lang-picker__label">{label}</span>
+    <div
+      className={`lang-picker${compact ? ' lang-picker--compact' : ''}`}
+      role="group"
+      aria-label={label}
+    >
+      {compact ? null : <span className="lang-picker__label">{label}</span>}
       <div className="lang-picker__flags">
         {availableLocales.map((locale) => {
           const active = locale === language;

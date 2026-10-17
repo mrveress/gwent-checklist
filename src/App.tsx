@@ -84,10 +84,14 @@ function ChecklistApp({
         />
         <CardGrid
           cards={visibleCards}
+          allCards={data.catalog.cards}
           totalCount={data.catalog.cards.length}
           gatheredSet={gatheredSet}
           translation={translation}
           ui={ui}
+          language={state.language}
+          availableLocales={data.availableLocales}
+          onLanguageChange={setLanguage}
           onToggle={toggleGathered}
         />
       </div>
