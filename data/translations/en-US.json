@@ -277,12 +277,12 @@
     "5e66dbf4-f8b6-4e00-b169-af9405f7594b": {
       "name": "Blue Stripes Commando",
       "description": "I'd do anything for Temeria. Mostly, though, I kill for her.",
-      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+      "howToGet": "Purchased from Trader — The Quartermaster, Baron’s Store, Crow’s Perch — (Velen)"
     },
     "ff1846ec-f008-428d-8444-ea350464cd8d": {
       "name": "Blue Stripes Commando",
       "description": "I'd do anything for Temeria. Mostly, though, I kill for her.",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+      "howToGet": "Purchased from Trader — The Merchant of Midcopse — (Velen)"
     },
     "46436ea2-5e02-46a9-80a7-cd4780c57ab8": {
       "name": "Catapult",
@@ -332,7 +332,7 @@
     "1d0e0631-96b7-4659-868f-51408918fd44": {
       "name": "Kaedweni Siege Expert",
       "description": "'You gotta recalibrate the arm by five degrees.' 'Do what by the what now?'",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
     },
     "422e7d15-da1e-4c00-9f69-fd45b4d018f5": {
       "name": "Keira Metz",
@@ -897,7 +897,7 @@
     "861b376a-8025-47d3-b65e-b5c1199b986f": {
       "name": "Imlerith",
       "description": "Ladd nahw! Kill them! Litter the earth with their entrails!",
-      "howToGet": "Base Deck — Reward for beating an opponent (random) — (In Base Deck)"
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
     },
     "96903648-9ce9-4436-880c-b84be0830815": {
       "name": "Kayran",
@@ -1057,7 +1057,7 @@
     "07ef1581-d1f7-470e-8d91-0255618e0b96": {
       "name": "Toad",
       "description": "Big. Bad. Ugly. Squats in the sewers.",
-      "howToGet": "Base Deck — Reward for beating an opponent (random) — (In Base Deck)"
+      "howToGet": "Won from a Gwent Player — Reward for beating Olgierd von Everec at the Alchemy Inn, or found on his table there if he has left — (Oxenfurt)"
     },
     "695219d3-fe52-4f60-afcb-49b9638cd13a": {
       "name": "Vampire: Bruxa",
@@ -1149,12 +1149,12 @@
     "d3fdad88-85cf-40a8-9ec6-29c36258c12b": {
       "name": "Clan An Craite Warrior",
       "description": "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
     },
     "f5f09845-d2d3-4643-b63c-960973cd3502": {
       "name": "Clan An Craite Warrior",
       "description": "I'll bring the an Craites such glory, bards'll go hoarse singin' me praises!",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
     },
     "123d3ebb-5e0e-4eac-8821-759c46967957": {
       "name": "Clan Brokvar Archer",
@@ -1169,7 +1169,7 @@
     "76628d80-9c6b-4e1f-9d3f-991cea8c77e6": {
       "name": "Clan Brokvar Archer",
       "description": "So ye can hit a movin' target at two hundred paces. Me, too. In a storm.",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
     },
     "824ac590-98d9-4759-9453-7cb037cb7f76": {
       "name": "Clan Dimun Pirate",
@@ -1229,7 +1229,7 @@
     "da34202d-cc1e-496e-8db2-da3453bd67e1": {
       "name": "Light Longship",
       "description": "Escape them? In the waters of Skellige? Good luck.",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
     },
     "a95df3e2-b953-49f2-8957-67cffb376729": {
       "name": "Madman Lugos",
@@ -1264,7 +1264,7 @@
     "f56c6841-aff2-4b42-ad4d-e5e588a8f5c8": {
       "name": "War Longship",
       "description": "They say Hemdall's heart swells whenever the longships sail out on a raid.",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Toussaint)"
+      "howToGet": "Base Deck (Blood and Wine) — You start with this card once you meet Count Monnier at the beginning of this quest. — (In Base Deck)"
     },
     "42d2eae4-145a-4054-8e3c-ae3f828cc8c6": {
       "name": "Young Berserker/Young Vildkaarl",
@@ -1354,7 +1354,7 @@
     "19d86101-b25d-4ce0-a925-bcee2adf1f4b": {
       "name": "Gaunter O’Dimm: Darkness",
       "description": "Fear not the shadows, but the light.",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+      "howToGet": "Purchased from Trader (20 Crowns) — The Elven Merchant of the Traveling Circus Camp (outside Carsten) — (Novigrad)"
     },
     "51c48194-715b-44a3-b204-d3411f9eeaaf": {
       "name": "Olgierd von Everec",
@@ -1429,7 +1429,7 @@
     "777d968a-4949-41b8-a11e-02a8a4387e52": {
       "name": "Biting Frost",
       "description": "Best part about frost - bodies of the fallen don't rot so quickly.",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
     },
     "1993b144-7915-4036-becd-6e8fd1a3aebb": {
       "name": "Biting Frost",
@@ -1454,7 +1454,7 @@
     "5d1caecd-4a1d-4af1-8cb5-4183507d4625": {
       "name": "Impenetrable Fog",
       "description": "A good commander's dream... a bad one's horror.",
-      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
     },
     "d9c637f9-5b7e-479c-81d3-a755c76c05ad": {
       "name": "Impenetrable Fog",
@@ -1490,6 +1490,21 @@
       "name": "Torrential Rain",
       "description": "Even the rain in this land smells like piss.",
       "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "4a40f3c0-217e-480f-9034-490f3fd2f95e": {
+      "name": "Clear Weather",
+      "description": "The sun's shinin', Dromle! The sun's shinin'! Maybe there's hope left after all...",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "65dd9801-dd78-48c7-86e5-444850e1b9cf": {
+      "name": "Torrential Rain",
+      "description": "Even the rain in this land smells like piss.",
+      "howToGet": "Base Deck — You start with this card. — (In Base Deck)"
+    },
+    "dbacd252-940c-4c7c-872b-29c370ea8fe2": {
+      "name": "Ballista",
+      "description": "'Usually we give 'em female names.' 'Like Jenny?' 'More like Bertha.'",
+      "howToGet": "Won from a Gwent Player — Reward for beating an opponent (random) — (Random)"
     }
   }
 }

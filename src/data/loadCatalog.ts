@@ -25,6 +25,17 @@ async function fetchJson<T>(url: string): Promise<T> {
   return (await response.json()) as T;
 }
 
+/** Keeps every copy of a card next to its first occurrence (new copies are appended to data.json). */
+function groupCopies(cards: Card[]): Card[] {
+  const bySlug = new Map<string, Card[]>();
+  for (const card of cards) {
+    const group = bySlug.get(card.slug);
+    if (group) group.push(card);
+    else bySlug.set(card.slug, [card]);
+  }
+  return Array.from(bySlug.values()).flat();
+}
+
 function sortLocales(locales: string[]): string[] {
   return [...locales].sort((a, b) => {
     if (a === DEFAULT_LOCALE) return -1;
@@ -47,11 +58,14 @@ export async function loadCatalog(): Promise<LoadedCatalog> {
   }
 
   const availableLocales = sortLocales(localeList);
+  // Cookie bitfield is indexed by data.json order, so it must not change when cards are regrouped.
+  const cardIdOrder = catalog.cards.map((card) => card.id);
+  catalog.cards = groupCopies(catalog.cards);
 
   return {
     catalog,
     availableLocales,
-    cardIdOrder: catalog.cards.map((card) => card.id),
+    cardIdOrder,
     cardById: new Map(catalog.cards.map((card) => [card.id, card])),
     allTags: Array.from(new Set(catalog.cards.flatMap((card) => card.tags))).sort((a, b) =>
       a.localeCompare(b),
