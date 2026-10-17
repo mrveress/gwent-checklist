@@ -180,10 +180,138 @@ select {
   gap: 0.5rem;
 }
 
-.toolbar__toast {
+.toast-viewport {
+  position: fixed;
+  z-index: 1200;
+  top: 1rem;
+  right: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  align-items: stretch;
+  pointer-events: none;
+  max-width: 26rem;
+  margin-left: auto;
+}
+
+.toast {
+  pointer-events: auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.7rem;
+  align-items: start;
+  padding: 0.75rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  box-shadow: 0 10px 28px rgba(28, 36, 28, 0.18);
+  background: #fbfcf8;
+  color: var(--ink);
+  animation: toast-in 180ms ease-out;
+}
+
+.toast__icon {
+  display: inline-flex;
+  margin-top: 0.05rem;
+  color: inherit;
+}
+
+.toast__icon-svg,
+.toast__close-svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+}
+
+.toast__body {
+  min-width: 0;
+}
+
+.toast__message {
   margin: 0;
-  color: var(--accent-deep);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.toast__close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: -0.25rem -0.2rem -0.25rem 0;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.72;
+}
+
+.toast__close:hover,
+.toast__close:focus-visible {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.06);
+  outline: none;
+}
+
+.toast--success {
+  background: #e7f3ec;
+  border-color: rgba(47, 107, 79, 0.28);
+  color: #1a3f2d;
+}
+
+.toast--success .toast__icon {
+  color: #2f6b4f;
+}
+
+.toast--info {
+  background: #e8eef6;
+  border-color: rgba(47, 84, 130, 0.28);
+  color: #1c334f;
+}
+
+.toast--info .toast__icon {
+  color: #3a6ea5;
+}
+
+.toast--warning {
+  background: #f7f0df;
+  border-color: rgba(176, 138, 46, 0.35);
+  color: #4a3a14;
+}
+
+.toast--warning .toast__icon {
+  color: #9a7420;
+}
+
+.toast--error {
+  background: #f7e8e6;
+  border-color: rgba(148, 58, 48, 0.28);
+  color: #4a221c;
+}
+
+.toast--error .toast__icon {
+  color: #a34034;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-0.4rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 640px) {
+  .toast-viewport {
+    left: auto;
+    width: min(26rem, calc(100vw - 2rem));
+  }
 }
 
 .lang-picker {

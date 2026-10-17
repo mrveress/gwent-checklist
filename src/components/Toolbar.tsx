@@ -1,6 +1,7 @@
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import type { UiStrings } from '../types';
 import { LanguagePicker } from './LanguagePicker';
+import { useToast } from '../toast/ToastContext';
 
 interface ToolbarProps {
   language: string;
@@ -26,7 +27,7 @@ export function Toolbar({
   onReset,
 }: ToolbarProps) {
   const fileRef = useRef<HTMLInputElement>(null);
-  const [message, setMessage] = useState<string | null>(null);
+  const { pushToast } = useToast();
   const percent =
     totalCount === 0
       ? 0
@@ -58,7 +59,7 @@ export function Toolbar({
               onClick={() => {
                 if (!window.confirm(ui.resetConfirm)) return;
                 onReset();
-                setMessage(ui.resetSuccess);
+                pushToast({ message: ui.resetSuccess, severity: 'success' });
               }}
             >
               {ui.reset}
@@ -68,7 +69,7 @@ export function Toolbar({
               className="btn btn--ghost"
               onClick={() => {
                 onExport();
-                setMessage(ui.exportSuccess);
+                pushToast({ message: ui.exportSuccess, severity: 'success' });
               }}
             >
               {ui.exportJson}
@@ -91,9 +92,9 @@ export function Toolbar({
                 if (!file) return;
                 try {
                   await onImport(file);
-                  setMessage(ui.importSuccess);
+                  pushToast({ message: ui.importSuccess, severity: 'success' });
                 } catch {
-                  setMessage(ui.importError);
+                  pushToast({ message: ui.importError, severity: 'error' });
                 }
               }}
             />
@@ -118,12 +119,6 @@ export function Toolbar({
           <span style={{ width: `${percent}%` }} />
         </div>
       </div>
-
-      {message ? (
-        <p className="toolbar__toast" role="status">
-          {message}
-        </p>
-      ) : null}
     </header>
   );
 }
